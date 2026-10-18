@@ -10,13 +10,7 @@ http.createServer(async (req, res) => {
     if (url.startsWith('/midterm/')) url = url.slice('/midterm'.length);
     let path = resolve(root, '.' + url);
     if (path !== root && !path.startsWith(root + sep)) throw Error('Forbidden');
-    try {
-      if ((await stat(path)).isDirectory()) path = resolve(path, 'index.html');
-    } catch {
-      // In development, public assets are mounted at the site root.
-      path = resolve(root, 'public', '.' + url);
-      if (!path.startsWith(resolve(root, 'public') + sep)) throw Error('Forbidden');
-    }
+    if ((await stat(path)).isDirectory()) path = resolve(path, 'index.html');
     const data = await readFile(path);
     res.writeHead(200, { 'Content-Type': types[extname(path)] || 'application/octet-stream', 'Cache-Control': 'no-cache' });
     res.end(data);

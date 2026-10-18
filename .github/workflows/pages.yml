@@ -25,10 +25,23 @@ jobs:
         run: npm test
       - name: Build static site
         run: npm run build
+      - name: Check configured Pages source
+        id: pages-source
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          source_type="$(gh api "repos/${{ github.repository }}/pages" --jq .build_type)"
+          echo "type=$source_type" >> "$GITHUB_OUTPUT"
+          if [ "$source_type" = "legacy" ]; then
+            echo "Pages is configured to publish from a branch. The root checkout is directly deployable; GitHub's branch deployment publishes it."
+          fi
       - uses: actions/configure-pages@v5
+        if: steps.pages-source.outputs.type == 'workflow'
       - uses: actions/upload-pages-artifact@v3
+        if: steps.pages-source.outputs.type == 'workflow'
         with:
           path: dist
       - name: Publish
+        if: steps.pages-source.outputs.type == 'workflow'
         id: deployment
         uses: actions/deploy-pages@v4

@@ -1,5 +1,5 @@
-const VERSION = 'memo-v1';
-const ASSETS = ['./', './index.html', './src/app.js', './src/core.js', './src/style.css', './bank.json', './favicon.svg', './manifest.webmanifest', './question-bank.pdf'];
+const VERSION = 'memo-v2-layout';
+const ASSETS = ['./', './index.html', './src/app.js', './src/core.js', './src/style.css', './public/bank.json', './public/favicon.svg', './public/manifest.webmanifest', './public/question-bank.pdf'];
 self.addEventListener('install', event => { event.waitUntil(caches.open(VERSION).then(cache => cache.addAll(ASSETS)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', event => { event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key.startsWith('memo-') && key !== VERSION).map(key => caches.delete(key)))).then(() => self.clients.claim())); });
 self.addEventListener('fetch', event => {

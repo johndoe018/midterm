@@ -51,6 +51,9 @@ The extractor removes running headers and page footers, joins wrapped lines, and
 
 ## GitHub Pages
 
-The `pages.yml` workflow tests, builds and deploys on every push to `main`, and supports manual dispatch. In GitHub repository **Settings → Pages**, use **GitHub Actions** as the build source. All asset paths are relative, so the site supports the `/midterm/` project path.
+Both supported Pages publishing modes work with the same file layout: the checkout and `dist/` keep assets in `public/`, with the service worker at the site root. All asset paths are relative, so the site supports the `/midterm/` project path.
+
+- **Deploy from a branch → main → / (root)**: GitHub's built-in branch deployment publishes the checkout directly. `.nojekyll` prevents Jekyll processing.
+- **GitHub Actions**: `pages.yml` tests, builds and deploys `dist/` on every push to `main`, and supports manual dispatch. When branch publishing is selected, this workflow runs tests/build only and leaves deployment to GitHub's built-in workflow.
 
 No secrets are embedded in the app. Progress belongs to the current browser/device; use export/import to transfer it. Exam marks are practice results, and card/essay marks are self-assessments.

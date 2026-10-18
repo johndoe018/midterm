@@ -40,6 +40,13 @@ with sync_playwright() as p:
 
     go("home")
     expect(page.locator(".topic-card")).to_have_count(7)
+    for selector in ['link[rel="icon"]', 'link[rel="manifest"]', '.footer a']:
+        asset_url = page.locator(selector).evaluate("el => el.href")
+        response = context.request.get(asset_url)
+        assert response.status == 200, (asset_url, response.status)
+    bank_response = context.request.get(BASE + "public/bank.json")
+    assert bank_response.status == 200
+    assert len(bank_response.json()["questions"]) == 329
     page.screenshot(path="/tmp/memo-desktop.png", full_page=True)
     print("PASS: dashboard, 7 sections, repository subpath assets")
 
