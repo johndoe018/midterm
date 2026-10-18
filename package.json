@@ -1,0 +1,14 @@
+{
+  "name": "memo-ai-midterm",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A complete, offline-capable study companion for the AI midterm question bank.",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs dist",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": { "node": ">=20" }
+}
