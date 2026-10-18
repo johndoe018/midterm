@@ -55,4 +55,5 @@ assert [q["id"] for q in questions if q["type"] == "essay"] == [f"E{i:02}" for i
 assert [(sum(q["topic"] == i and q["type"] == "mcq" for q in questions), sum(q["topic"] == i and q["type"] == "essay" for q in questions)) for i in range(1, 8)] == [(48,12),(38,11),(33,10),(26,9),(35,10),(35,10),(41,11)]
 bank = {"title": "AI Midterm Complete Practice Question Bank", "topics": [{"id": i, "title": s[0], "originalTitle": s[1], "description": s[2], "icon": s[3], "supplementary": i == 7} for i, s in enumerate(sections, 1)], "questions": questions}
 (ROOT / "public/bank.json").write_text(json.dumps(bank, ensure_ascii=False, indent=2) + "\n")
+subprocess.run(["node", str(ROOT / "scripts/prepare-bank.mjs")], check=True)
 print(f"Extracted and validated {len(questions)} questions: 256 MCQs, 73 essays, 7 topics.")

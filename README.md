@@ -13,6 +13,8 @@ A calm, responsive study companion built from **AI_Midterm_Complete_Question_Ban
 - Local progress with JSON backup/import; light/dark themes; keyboard controls; responsive mobile navigation.
 - Offline use after the first successful visit via a service worker. Browser storage and cache can be cleared by the browser, so export important progress.
 
+The application imports its questions from `public/bank-data.js` as a JavaScript module, so booting the study interface does not depend on a separate JSON fetch. `public/bank.json` remains the canonical source. The root `bank.json` is a compatibility copy for browsers still running the first release. Run `npm run prepare:bank` after manually editing the canonical bank; extraction and production builds also prepare both files. The application URL and offline cache are versioned to prevent old startup code persisting across releases.
+
 ## Development
 
 Use the existing checkout in `/workspace/midterm`; cloud tasks already have isolated workspaces, so a Git worktree is unnecessary.

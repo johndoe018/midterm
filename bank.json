@@ -1,0 +1,5327 @@
+{
+  "title": "AI Midterm Complete Practice Question Bank",
+  "topics": [
+    {
+      "id": 1,
+      "title": "AI и промптинг",
+      "originalTitle": "Weeks 1–2: AI in Mathematics Education and Prompt Engineering",
+      "description": "Основы AI, проверка ответов и точные промпты",
+      "icon": "spark",
+      "supplementary": false
+    },
+    {
+      "id": 2,
+      "title": "Планирование уроков",
+      "originalTitle": "AI for Lesson Planning",
+      "description": "От учебной цели до готового плана занятия",
+      "icon": "layout",
+      "supplementary": false
+    },
+    {
+      "id": 3,
+      "title": "Математические задачи",
+      "originalTitle": "Week 4: AI for Mathematics Problems",
+      "description": "Создание задач, решения и типичные ошибки",
+      "icon": "function",
+      "supplementary": false
+    },
+    {
+      "id": 4,
+      "title": "Объяснение математики",
+      "originalTitle": "AI for Mathematical Explanations",
+      "description": "Понятные объяснения и педагогический контекст",
+      "icon": "message",
+      "supplementary": false
+    },
+    {
+      "id": 5,
+      "title": "Визуализация",
+      "originalTitle": "Mathematical Visualization",
+      "description": "Графики, модели и интерактивные представления",
+      "icon": "chart",
+      "supplementary": false
+    },
+    {
+      "id": 6,
+      "title": "Дифференциация",
+      "originalTitle": "AI for Differentiated Learning",
+      "description": "Общая цель и разные пути к пониманию",
+      "icon": "layers",
+      "supplementary": false
+    },
+    {
+      "id": 7,
+      "title": "Исследования и ошибки AI",
+      "originalTitle": "Attached Research Readings and Documented AI Errors",
+      "description": "Дополнительные статьи и разбор реальных ошибок",
+      "icon": "book",
+      "supplementary": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q001",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "Which description best matches artificial intelligence in the lecture?",
+      "options": [
+        "A calculator that always follows fixed arithmetic",
+        "Systems performing tasks associated with human intelligence",
+        "A method for replacing teachers",
+        "Only robots with physical bodies"
+      ],
+      "answer": 1,
+      "explanation": "AI is defined broadly by the kinds of tasks computer systems can perform.",
+      "reference": "Slide 5"
+    },
+    {
+      "id": "Q002",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "What makes generative AI different in the lecture's definition?",
+      "options": [
+        "It only stores data",
+        "It guarantees a valid proof",
+        "It requires a robot",
+        "It produces new content such as explanations, text, images or code"
+      ],
+      "answer": 3,
+      "explanation": "Generation of new content is its defining feature.",
+      "reference": "Slide 5"
+    },
+    {
+      "id": "Q003",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "According to the lecture, what is the basic language-generation mechanism of LLMs?",
+      "options": [
+        "They predict likely sequences of language from learned patterns",
+        "They solve every problem symbolically",
+        "They measure students' intelligence directly",
+        "They consult a certified theorem database for each sentence"
+      ],
+      "answer": 0,
+      "explanation": "The slide describes language-sequence prediction from training patterns.",
+      "reference": "Slide 5"
+    },
+    {
+      "id": "Q004",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "Why can an AI explanation be dangerous even when fluent?",
+      "options": [
+        "AI never uses mathematical notation",
+        "Long answers are always correct",
+        "Confidence and correctness are not the same",
+        "AI is unable to output text"
+      ],
+      "answer": 2,
+      "explanation": "AI can sound confident while giving incorrect mathematics.",
+      "reference": "Slide 5"
+    },
+    {
+      "id": "Q005",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "What percentage of Kazakhstan teachers reported using AI in TALIS 2024, according to the lecture?",
+      "options": [
+        "25%",
+        "36%",
+        "68%",
+        "59%"
+      ],
+      "answer": 3,
+      "explanation": "The slide reports 59% for Kazakhstan.",
+      "reference": "Slide 3"
+    },
+    {
+      "id": "Q006",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "What OECD average for teachers' AI use is compared with Kazakhstan?",
+      "options": [
+        "59%",
+        "36%",
+        "26%",
+        "64%"
+      ],
+      "answer": 1,
+      "explanation": "The lecture contrasts 36% for OECD with 59% for Kazakhstan.",
+      "reference": "Slide 3"
+    },
+    {
+      "id": "Q007",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "Which AI task had the highest reported use in the lecture's OECD TALIS breakdown?",
+      "options": [
+        "Creating student profiles",
+        "Learning or summarising topics",
+        "Reviewing participation",
+        "Assessment or grading"
+      ],
+      "answer": 1,
+      "explanation": "Learning/summarising was 68%, the highest listed.",
+      "reference": "Slide 4"
+    },
+    {
+      "id": "Q008",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "What percentage used AI to generate lesson plans or activities in the lecture chart?",
+      "options": [
+        "25%",
+        "68%",
+        "64%",
+        "26%"
+      ],
+      "answer": 2,
+      "explanation": "The slide shows 64% for lesson plans/activities.",
+      "reference": "Slide 4"
+    },
+    {
+      "id": "Q009",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "Which reported activity had the lowest use among the four OECD categories?",
+      "options": [
+        "Learn or summarise topics",
+        "Review participation or performance",
+        "Assess or grade student work",
+        "Generate lesson plans"
+      ],
+      "answer": 1,
+      "explanation": "Participation/performance review was 25%.",
+      "reference": "Slide 4"
+    },
+    {
+      "id": "Q010",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "What key question does the lecture recommend asking about classroom AI?",
+      "options": [
+        "Can every teacher stop planning?",
+        "Can AI produce longer answers?",
+        "Can an AI tool score students secretly?",
+        "Does AI improve learning?"
+      ],
+      "answer": 3,
+      "explanation": "Educational value, not technological novelty, is central.",
+      "reference": "Slide 3"
+    },
+    {
+      "id": "Q011",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "Which task is an example of AI-assisted problem creation?",
+      "options": [
+        "Eliminating proofs",
+        "Replacing feedback with a grade",
+        "Collecting sensitive student records",
+        "Varying and differentiating a mathematical exercise"
+      ],
+      "answer": 3,
+      "explanation": "Problem creation includes generating, varying and differentiating tasks.",
+      "reference": "Slide 6"
+    },
+    {
+      "id": "Q012",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "In which application can AI suggest rubrics and distractors?",
+      "options": [
+        "Only visualization",
+        "Assessment",
+        "Data privacy",
+        "Only professional learning"
+      ],
+      "answer": 1,
+      "explanation": "Quizzes, distractors, rubrics and feedback are assessment applications.",
+      "reference": "Slide 6"
+    },
+    {
+      "id": "Q013",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "Which application specifically supports graphs, diagrams and interactive models?",
+      "options": [
+        "Assessment",
+        "Prompt chaining",
+        "Attendance management",
+        "Visualization"
+      ],
+      "answer": 3,
+      "explanation": "Those are examples of visualization support.",
+      "reference": "Slide 6"
+    },
+    {
+      "id": "Q014",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "For the equation 2x + 5 = 17, which use was NOT among the slide's suggested AI activities?",
+      "options": [
+        "Explain steps to Grade 7–8",
+        "Assign final grades automatically without review",
+        "Identify misconceptions",
+        "Create graded variations"
+      ],
+      "answer": 1,
+      "explanation": "The example lists explanations, variations, misconceptions and a GeoGebra visual.",
+      "reference": "Slide 7"
+    },
+    {
+      "id": "Q015",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "What solution should a teacher independently obtain for 2x + 5 = 17?",
+      "options": [
+        "x = 6",
+        "x = 5",
+        "x = 11",
+        "x = 17"
+      ],
+      "answer": 0,
+      "explanation": "Subtract 5, then divide by 2: x = 6.",
+      "reference": "Slide 7"
+    },
+    {
+      "id": "Q016",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "What does the slide mean by 'AI output is a draft'?",
+      "options": [
+        "The answer must never be used",
+        "A teacher must evaluate and verify it",
+        "It is correct if formatted nicely",
+        "Only spelling needs review"
+      ],
+      "answer": 1,
+      "explanation": "Independent mathematical and pedagogical checking remains necessary.",
+      "reference": "Slide 8"
+    },
+    {
+      "id": "Q017",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "Which order is the lecture's verification chain?",
+      "options": [
+        "Notation → Privacy → Cost → Answer → Speed",
+        "Method → Layout → Platform → Hardware → Score",
+        "Difficulty → Notation → Assumptions → Method → Answer",
+        "Answer → Method → Assumptions → Notation → Difficulty"
+      ],
+      "answer": 3,
+      "explanation": "The slide explicitly lists answer, method, assumptions, notation and difficulty.",
+      "reference": "Slide 8"
+    },
+    {
+      "id": "Q018",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "Which issue can remain even if AI's algebraic result is mathematically correct?",
+      "options": [
+        "The problem needs a physical robot",
+        "The answer becomes false automatically",
+        "The method may be inappropriate for the grade",
+        "The method must contain graphics"
+      ],
+      "answer": 2,
+      "explanation": "Pedagogical suitability is separate from mathematical validity.",
+      "reference": "Slide 8"
+    },
+    {
+      "id": "Q019",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "Which tool is presented for turning an idea into an interactive mathematical visualization?",
+      "options": [
+        "An attendance spreadsheet",
+        "A citation manager",
+        "An email filter",
+        "GeoGebra"
+      ],
+      "answer": 3,
+      "explanation": "The example pipeline assigns the interactive visualization to GeoGebra.",
+      "reference": "Slide 9"
+    },
+    {
+      "id": "Q020",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "In the slide's AI-plus-multimedia workflow, what follows Canva/PowerPoint?",
+      "options": [
+        "Final automatic grading without review",
+        "Rewriting training data",
+        "A short formative quiz via an assessment platform",
+        "Deleting the learning objective"
+      ],
+      "answer": 2,
+      "explanation": "The assessment platform follows the visual resource.",
+      "reference": "Slide 9"
+    },
+    {
+      "id": "Q021",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "What should educational technology primarily achieve?",
+      "options": [
+        "Make the mathematical idea clearer",
+        "Increase the number of screens",
+        "Make the lesson more colorful",
+        "Replace all student discussion"
+      ],
+      "answer": 0,
+      "explanation": "The lecture values mathematical clarity over attractiveness.",
+      "reference": "Slide 9"
+    },
+    {
+      "id": "Q022",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "Which comparison criterion asks whether students of different needs can use a tool's output?",
+      "options": [
+        "Accessibility",
+        "Flexibility",
+        "Accuracy",
+        "Speed"
+      ],
+      "answer": 0,
+      "explanation": "Accessibility concerns usability for different learners.",
+      "reference": "Slide 10"
+    },
+    {
+      "id": "Q023",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "Which criterion asks what information an AI tool requires from users?",
+      "options": [
+        "Privacy and safety",
+        "Mathematical accuracy",
+        "Flexibility",
+        "Pedagogical value"
+      ],
+      "answer": 0,
+      "explanation": "Required data is a privacy and safety issue.",
+      "reference": "Slide 10"
+    },
+    {
+      "id": "Q024",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "Which comparison criterion focuses on matching a learning goal?",
+      "options": [
+        "Usability only",
+        "Pedagogical value",
+        "Cost only",
+        "Marketing popularity"
+      ],
+      "answer": 1,
+      "explanation": "Pedagogical value asks whether the output supports the objective.",
+      "reference": "Slide 10"
+    },
+    {
+      "id": "Q025",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "Which is NOT one of the lecture's six AI-tool evaluation criteria?",
+      "options": [
+        "Social-media popularity",
+        "Usability",
+        "Flexibility",
+        "Privacy and safety"
+      ],
+      "answer": 0,
+      "explanation": "Popularity is not in the listed six-part framework.",
+      "reference": "Slide 10"
+    },
+    {
+      "id": "Q026",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "What is the focus of the 'two negative numbers' mini-case?",
+      "options": [
+        "Avoid visual examples",
+        "Evaluate the explanation and improve its representation",
+        "Only memorise the sign rule",
+        "Use a calculator to replace reasoning"
+      ],
+      "answer": 1,
+      "explanation": "The task asks for technical and grade-level evaluation and a clearer representation.",
+      "reference": "Slide 11"
+    },
+    {
+      "id": "Q027",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "Which is responsible handling of student data?",
+      "options": [
+        "Use data without consent whenever useful",
+        "Avoid entering sensitive personal information in public AI tools",
+        "Publish learner marks for prompting",
+        "Paste identifiable records into public AI"
+      ],
+      "answer": 1,
+      "explanation": "The lecture directly stresses privacy protection.",
+      "reference": "Slide 12"
+    },
+    {
+      "id": "Q028",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "What should teachers do when institutional policy requires AI disclosure?",
+      "options": [
+        "Disclose AI use",
+        "Conceal its use",
+        "Only inform high-achieving students",
+        "Always delete the lesson"
+      ],
+      "answer": 0,
+      "explanation": "Transparency is required when course or institutional policies say so.",
+      "reference": "Slide 12"
+    },
+    {
+      "id": "Q029",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "How many AI competencies and dimensions are stated for UNESCO's 2024 teacher framework?",
+      "options": [
+        "20 competencies across 10 dimensions",
+        "5 competencies in 15 dimensions",
+        "15 competencies across 5 dimensions",
+        "3 competencies across 2 dimensions"
+      ],
+      "answer": 2,
+      "explanation": "The lecture reports 15 competencies across five dimensions.",
+      "reference": "Slide 12"
+    },
+    {
+      "id": "Q030",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "Which of the following belongs to the five UNESCO dimensions in the slides?",
+      "options": [
+        "Prompt-length optimization",
+        "Social network promotion",
+        "Automated exam surveillance",
+        "Human-centred mindset"
+      ],
+      "answer": 3,
+      "explanation": "Human-centred mindset is explicitly named.",
+      "reference": "Slide 12"
+    },
+    {
+      "id": "Q031",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "What is the UNESCO competency progression described on the slide?",
+      "options": [
+        "Plan → Automate → Replace",
+        "Beginner → Average → Expert Only",
+        "Acquire → Deepen → Create",
+        "Generate → Hide → Publish"
+      ],
+      "answer": 2,
+      "explanation": "The slide uses Acquire, Deepen and Create.",
+      "reference": "Slide 12"
+    },
+    {
+      "id": "Q032",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "Which two UNESCO dimensions receive special emphasis in this course?",
+      "options": [
+        "Robotics and mechanical control",
+        "Finance and administration",
+        "AI pedagogy and AI for professional learning",
+        "Hardware and networking"
+      ],
+      "answer": 2,
+      "explanation": "These are identified as the course's special focus.",
+      "reference": "Slide 12"
+    },
+    {
+      "id": "Q033",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "What is a prompt?",
+      "options": [
+        "A student score",
+        "Only the final AI answer",
+        "A mathematical proof generated by AI",
+        "The instruction or input provided to an AI system"
+      ],
+      "answer": 3,
+      "explanation": "The lecture defines prompts as instructions or inputs.",
+      "reference": "Slide 15"
+    },
+    {
+      "id": "Q034",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "Which is the full six-part prompt formula used in Weeks 1–2?",
+      "options": [
+        "Model, code, sensor, reward, graph, bias",
+        "Topic, color, length, score, cost, platform",
+        "Role, task, context, constraints, format, verification",
+        "Question, final answer, grade, timer, student, mark"
+      ],
+      "answer": 2,
+      "explanation": "The slide names these six components.",
+      "reference": "Slide 15"
+    },
+    {
+      "id": "Q035",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "What is the lecture's iterative prompting cycle?",
+      "options": [
+        "Ask → Inspect → Revise → Verify",
+        "Write → Grade → Delete → Repeat",
+        "Upload → Trust → Publish → Finish",
+        "Ignore → Render → Label → Save"
+      ],
+      "answer": 0,
+      "explanation": "Revision and checking are part of effective prompting.",
+      "reference": "Slide 15"
+    },
+    {
+      "id": "Q036",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "Why is 'Create a math problem about fractions' considered weak?",
+      "options": [
+        "AI cannot create word problems",
+        "It omits learner level, quantity, context and output requirements",
+        "Fractions are not taught in Grade 7",
+        "It requests a single topic"
+      ],
+      "answer": 1,
+      "explanation": "It provides too little teaching context.",
+      "reference": "Slide 16"
+    },
+    {
+      "id": "Q037",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "Which requirement appears in the stronger fractions prompt?",
+      "options": [
+        "Give no answer key",
+        "Use decimals in all answers",
+        "Use only university proofs",
+        "Create three Grade 7 unlike-fraction addition problems"
+      ],
+      "answer": 3,
+      "explanation": "It specifies Grade 7, three problems, differing difficulty and other constraints.",
+      "reference": "Slide 16"
+    },
+    {
+      "id": "Q038",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "In the six-part formula, 'You are a Grade 8 mathematics teacher' represents which element?",
+      "options": [
+        "Verification",
+        "Format",
+        "Task",
+        "Role"
+      ],
+      "answer": 3,
+      "explanation": "It tells the AI which role to assume.",
+      "reference": "Slide 17"
+    },
+    {
+      "id": "Q039",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "'45-minute lesson; students know basic algebraic operations' describes which element?",
+      "options": [
+        "Format",
+        "Output length only",
+        "Context",
+        "Verification"
+      ],
+      "answer": 2,
+      "explanation": "It describes teaching conditions and learner prior knowledge.",
+      "reference": "Slide 17"
+    },
+    {
+      "id": "Q040",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "'2 easy, 2 medium, 1 challenging; no calculators' is primarily a statement of what?",
+      "options": [
+        "Output channel",
+        "Role",
+        "Constraints",
+        "Model architecture"
+      ],
+      "answer": 2,
+      "explanation": "It restricts difficulty distribution and resources.",
+      "reference": "Slide 17"
+    },
+    {
+      "id": "Q041",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "'Table with problem, answer and difficulty' specifies what?",
+      "options": [
+        "Format",
+        "Pedagogical research method",
+        "Student interests",
+        "Privacy policy"
+      ],
+      "answer": 0,
+      "explanation": "This sets the output structure.",
+      "reference": "Slide 17"
+    },
+    {
+      "id": "Q042",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "'Check each answer before presenting' is which prompt element?",
+      "options": [
+        "Context",
+        "Lesson duration",
+        "Role",
+        "Verification"
+      ],
+      "answer": 3,
+      "explanation": "It requests correctness checking, though the teacher must still verify.",
+      "reference": "Slide 17"
+    },
+    {
+      "id": "Q043",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "What should stay constant across differentiated versions in the Week 2 prompt advice?",
+      "options": [
+        "Every hint sentence",
+        "Every numerical coefficient",
+        "The learning objective",
+        "The student's response time"
+      ],
+      "answer": 2,
+      "explanation": "The goal stays fixed while support and demands can change.",
+      "reference": "Slide 18"
+    },
+    {
+      "id": "Q044",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "Which explanation sequence is requested in the lecture's example prompt?",
+      "options": [
+        "Quiz → certificate → attendance",
+        "Intuition → example → worked solution → quick check",
+        "Final grade → solution → homework",
+        "Formal theorem → advanced proof only"
+      ],
+      "answer": 1,
+      "explanation": "The slide lists this student-facing progression.",
+      "reference": "Slide 18"
+    },
+    {
+      "id": "Q045",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "What is prompt chaining?",
+      "options": [
+        "Dividing a complex task into linked stages",
+        "Typing the same vague prompt repeatedly",
+        "Always asking for a final answer in one sentence",
+        "Connecting two computers with a cable"
+      ],
+      "answer": 0,
+      "explanation": "The workflow generates, selects, converts, critiques and verifies in stages.",
+      "reference": "Slide 19"
+    },
+    {
+      "id": "Q046",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "Which stage comes after selecting examples in the slide's prompt chain?",
+      "options": [
+        "Train a new neural network",
+        "Turn them into student tasks",
+        "Publish them without checking",
+        "Remove the objective"
+      ],
+      "answer": 1,
+      "explanation": "Selected examples become tasks before answers and misconceptions are generated.",
+      "reference": "Slide 19"
+    },
+    {
+      "id": "Q047",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "Which prompt-design mistake asks AI for too many things at once?",
+      "options": [
+        "Specifying the learner",
+        "Requesting an entire course in one prompt",
+        "Breaking a task into stages",
+        "Checking each answer"
+      ],
+      "answer": 1,
+      "explanation": "The slide warns about overloading a prompt.",
+      "reference": "Slide 19"
+    },
+    {
+      "id": "Q048",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "mcq",
+      "question": "Why is requesting only the answer pedagogically weaker than a learning experience?",
+      "options": [
+        "Student thinking and explanation may be omitted",
+        "AI never answers correctly",
+        "Answers cannot be printed",
+        "It is always too slow"
+      ],
+      "answer": 0,
+      "explanation": "The lecture asks teachers to design activities that support learning.",
+      "reference": "Slide 19"
+    },
+    {
+      "id": "Q049",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "Which definition best captures lesson planning?",
+      "options": [
+        "Deciding objectives, activities, resources and assessment",
+        "Printing worksheets without learning goals",
+        "Only choosing textbook pages",
+        "Assigning marks before teaching"
+      ],
+      "answer": 0,
+      "explanation": "The slide frames planning as aligning learning, teaching and assessment.",
+      "reference": "Slide 3"
+    },
+    {
+      "id": "Q050",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "What sequence summarizes the foundational lesson-plan elements?",
+      "options": [
+        "Grading → Lecture → Hardware → Training",
+        "Prompt → Solution → Publication → Ranking",
+        "Resources → Scores → Screens → Homework",
+        "Objectives → Activities → Resources → Assessment"
+      ],
+      "answer": 3,
+      "explanation": "That is the slide's planning chain.",
+      "reference": "Slide 3"
+    },
+    {
+      "id": "Q051",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "Which objective and assessment pair is explicitly aligned in the quadratic example?",
+      "options": [
+        "Objective: draw a circle; assessment: learn logarithms",
+        "Objective: solve using the quadratic formula; assessment: solve 2x² − 5x − 3 = 0 and explain",
+        "Objective: code Python; assessment: read a poem",
+        "Objective: memorize history; assessment: sketch a triangle"
+      ],
+      "answer": 1,
+      "explanation": "The problem and explanation directly assess the stated objective.",
+      "reference": "Slide 3"
+    },
+    {
+      "id": "Q052",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "Which is an AI-supported planning activity?",
+      "options": [
+        "Generating draft warm-up ideas and rubrics",
+        "Knowing every learner perfectly",
+        "Guaranteeing realistic timing",
+        "Automatic replacement of teacher judgment"
+      ],
+      "answer": 0,
+      "explanation": "AI can propose activities and assessment drafts.",
+      "reference": "Slide 4"
+    },
+    {
+      "id": "Q053",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "What limitation of AI planning is noted from research with preservice teachers?",
+      "options": [
+        "AI can only draw graphs",
+        "Pedagogical suggestions may be repetitive and mathematical output can mislead",
+        "All outputs are too short",
+        "AI never organizes a lesson"
+      ],
+      "answer": 1,
+      "explanation": "The lecture explicitly cautions about repetition and errors.",
+      "reference": "Slide 4"
+    },
+    {
+      "id": "Q054",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "Who makes the final pedagogical decision in AI-assisted planning?",
+      "options": [
+        "Randomized rubric",
+        "AI model",
+        "Software vendor",
+        "Teacher"
+      ],
+      "answer": 3,
+      "explanation": "The core rule is 'AI generates. The teacher decides.'",
+      "reference": "Slide 5"
+    },
+    {
+      "id": "Q055",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "Which sequence represents the AI-assisted process?",
+      "options": [
+        "AI → Final marks → Teacher",
+        "Teacher → AI → Classroom, without checks",
+        "Students → AI → Replace syllabus",
+        "Teacher → AI → Draft → Evaluation → Revision → Lesson"
+      ],
+      "answer": 3,
+      "explanation": "Evaluation and revision are essential intermediate stages.",
+      "reference": "Slide 5"
+    },
+    {
+      "id": "Q056",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "Why is a teacher's context indispensable?",
+      "options": [
+        "Teachers know actual students, curriculum, time and prior knowledge",
+        "The curriculum never matters",
+        "Prompts always reveal all learner needs",
+        "AI output has no language"
+      ],
+      "answer": 0,
+      "explanation": "The teacher supplies real classroom judgment beyond the prompt.",
+      "reference": "Slide 5"
+    },
+    {
+      "id": "Q057",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "At which stage can AI suggest measurable objectives?",
+      "options": [
+        "Learning objectives",
+        "Final certification",
+        "Printing",
+        "Homework only"
+      ],
+      "answer": 0,
+      "explanation": "Clear learning objectives can be drafted at this stage.",
+      "reference": "Slide 6"
+    },
+    {
+      "id": "Q058",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "What is a suitable AI contribution during the introduction?",
+      "options": [
+        "Ignoring prior knowledge",
+        "Secretly collecting student data",
+        "Changing the curriculum's purpose",
+        "Warm-up questions and alternative explanations"
+      ],
+      "answer": 3,
+      "explanation": "Both appear in the introduction/explanation row.",
+      "reference": "Slide 6"
+    },
+    {
+      "id": "Q059",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "What can AI draft for homework and reflection?",
+      "options": [
+        "Teacher employment records",
+        "Final student identities",
+        "Tasks and reflection questions",
+        "Attendance passwords"
+      ],
+      "answer": 2,
+      "explanation": "Homework and reflection drafts are listed uses.",
+      "reference": "Slide 6"
+    },
+    {
+      "id": "Q060",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "What is the first step of the seven-stage AI lesson-planning workflow?",
+      "options": [
+        "Generate a draft",
+        "Define context",
+        "Finalize lesson",
+        "Check accuracy"
+      ],
+      "answer": 1,
+      "explanation": "The workflow begins with classroom context.",
+      "reference": "Slide 7"
+    },
+    {
+      "id": "Q061",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "What immediately follows generating a draft?",
+      "options": [
+        "Send it to students",
+        "Check accuracy",
+        "Finish teaching",
+        "Print the grades"
+      ],
+      "answer": 1,
+      "explanation": "Mathematical checking occurs before adaptation.",
+      "reference": "Slide 7"
+    },
+    {
+      "id": "Q062",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "Which step follows adapting the lesson to students?",
+      "options": [
+        "Replace the teacher",
+        "Skip revision",
+        "Add the teacher's own ideas",
+        "Erase the objective"
+      ],
+      "answer": 2,
+      "explanation": "The slide's sixth step adds the teacher's ideas.",
+      "reference": "Slide 7"
+    },
+    {
+      "id": "Q063",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "Which path is explicitly discouraged?",
+      "options": [
+        "Evaluation → Revision → Classroom",
+        "Context → Prompt → Draft",
+        "Prompt → Classroom without evaluation",
+        "Prompt → Draft → Evaluation → Revision → Classroom"
+      ],
+      "answer": 2,
+      "explanation": "AI output should not go straight to the classroom.",
+      "reference": "Slide 7"
+    },
+    {
+      "id": "Q064",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "Why is 'Make a lesson about the Pythagorean theorem' weak?",
+      "options": [
+        "It has too many constraints",
+        "It leaves grade, time, prerequisites, goals and assessment unspecified",
+        "The theorem is unteachable",
+        "It asks for a lesson"
+      ],
+      "answer": 1,
+      "explanation": "AI must guess crucial teaching context.",
+      "reference": "Slide 8"
+    },
+    {
+      "id": "Q065",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "Which learner difficulty is explicitly specified in the strong Grade 8 Pythagorean prompt?",
+      "options": [
+        "Already knows trigonometric proofs",
+        "Difficulty identifying the hypotenuse",
+        "Unable to draw a coordinate axis",
+        "Unable to add whole numbers"
+      ],
+      "answer": 1,
+      "explanation": "The strong prompt states this prerequisite gap.",
+      "reference": "Slide 8"
+    },
+    {
+      "id": "Q066",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "Which assessment appears at the end of that stronger prompt?",
+      "options": [
+        "Peer grading of the AI model",
+        "National exam",
+        "Oral university defense",
+        "Exit ticket"
+      ],
+      "answer": 3,
+      "explanation": "It requests an exit ticket among the lesson components.",
+      "reference": "Slide 8"
+    },
+    {
+      "id": "Q067",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "What does C mean in COARE?",
+      "options": [
+        "Classroom technology",
+        "Context",
+        "Calculation",
+        "Clarity"
+      ],
+      "answer": 1,
+      "explanation": "C is for learner context.",
+      "reference": "Slide 9"
+    },
+    {
+      "id": "Q068",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "What does O mean in COARE?",
+      "options": [
+        "Objective",
+        "Observation",
+        "Output model",
+        "Organization"
+      ],
+      "answer": 0,
+      "explanation": "O asks what students should learn.",
+      "reference": "Slide 9"
+    },
+    {
+      "id": "Q069",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "What does A mean in COARE?",
+      "options": [
+        "Activity",
+        "Algorithm",
+        "Accuracy only",
+        "Automation"
+      ],
+      "answer": 0,
+      "explanation": "A specifies what students should do.",
+      "reference": "Slide 9"
+    },
+    {
+      "id": "Q070",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "What does R mean in COARE?",
+      "options": [
+        "Review",
+        "Restrictions",
+        "Representation only",
+        "Results"
+      ],
+      "answer": 1,
+      "explanation": "R covers time, level, resources and curriculum.",
+      "reference": "Slide 9"
+    },
+    {
+      "id": "Q071",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "What does E mean in COARE?",
+      "options": [
+        "Equations",
+        "Ethics only",
+        "Evaluation",
+        "Examples only"
+      ],
+      "answer": 2,
+      "explanation": "E asks how learning will be assessed.",
+      "reference": "Slide 9"
+    },
+    {
+      "id": "Q072",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "Which is the COARE activity in its Grade 10 derivative example?",
+      "options": [
+        "No-calculator exam only",
+        "Graph-based exploration",
+        "A student privacy form",
+        "A lecture on AI architecture"
+      ],
+      "answer": 1,
+      "explanation": "The example uses a graph-based exploration.",
+      "reference": "Slide 9"
+    },
+    {
+      "id": "Q073",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "In the lecture's differentiation example, which task is the advanced level?",
+      "options": [
+        "Find k for two distinct real roots of x² + (k−2)x + k = 0",
+        "Compute 2 + 2",
+        "2x² − 5x − 3 = 0",
+        "x² − 9 = 0"
+      ],
+      "answer": 0,
+      "explanation": "The advanced task introduces a parameter and a condition to justify.",
+      "reference": "Slide 10"
+    },
+    {
+      "id": "Q074",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "Which activity pattern best expresses a student-centred lesson?",
+      "options": [
+        "AI grades → Teacher leaves",
+        "Watch → Copy → Leave",
+        "Teacher explains → Students listen",
+        "Explore → Discuss → Solve → Explain"
+      ],
+      "answer": 3,
+      "explanation": "The lecture advocates active investigation and explanation.",
+      "reference": "Slide 11"
+    },
+    {
+      "id": "Q075",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "Which prompt turns Pythagoras into discovery rather than simple exposition?",
+      "options": [
+        "'Provide the final formula only'",
+        "'Write twenty pages of lecture notes only'",
+        "'Give learners the answer before they think'",
+        "'Design an activity comparing areas of squares on a right triangle's sides'"
+      ],
+      "answer": 3,
+      "explanation": "Students investigate the geometric relationship themselves.",
+      "reference": "Slide 11"
+    },
+    {
+      "id": "Q076",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "Which is a realistic risk in AI-generated lesson plans?",
+      "options": [
+        "They are always too brief",
+        "Fabricated references and unrealistic activities",
+        "They always know the curriculum",
+        "They cannot contain incorrect terminology"
+      ],
+      "answer": 1,
+      "explanation": "The warning list includes fabricated references and unrealistic activities.",
+      "reference": "Slide 12"
+    },
+    {
+      "id": "Q077",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "What does the lecture say a 2026 preservice-teacher study found?",
+      "options": [
+        "AI never helped with objectives",
+        "AI replaced all teacher decisions",
+        "Objectives and organization could be useful, but output sometimes verbose or inaccurate",
+        "AI-generated resources were always age-appropriate"
+      ],
+      "answer": 2,
+      "explanation": "The research is summarized that way on the slide.",
+      "reference": "Slide 12"
+    },
+    {
+      "id": "Q078",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "Which teacher action best checks a generated math example?",
+      "options": [
+        "Check only the font",
+        "Ask AI to promise it is correct",
+        "Solve independently and check formulas, calculations, diagrams and logic",
+        "Trust plausible notation"
+      ],
+      "answer": 2,
+      "explanation": "Mathematical verification is multi-part and independent.",
+      "reference": "Slide 13"
+    },
+    {
+      "id": "Q079",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "Why is a 25-minute teacher explanation, 10-minute watching and 15-minute worksheet possibly weak?",
+      "options": [
+        "It is too short to count as a plan",
+        "Any worksheet is forbidden",
+        "It is not a sequence",
+        "It may omit student exploration, feedback, differentiation and reasoning"
+      ],
+      "answer": 3,
+      "explanation": "Technical completeness does not ensure strong pedagogy.",
+      "reference": "Slide 14"
+    },
+    {
+      "id": "Q080",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "Which item belongs on the weak-pedagogy audit list?",
+      "options": [
+        "Student reasoning",
+        "Keyboard speed",
+        "GPU memory",
+        "Advertising"
+      ],
+      "answer": 0,
+      "explanation": "The slide calls for student reasoning and reflection.",
+      "reference": "Slide 14"
+    },
+    {
+      "id": "Q081",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "Which teacher checklist question links an AI lesson to intended outcomes?",
+      "options": [
+        "Does it support my learning objective?",
+        "Did the AI give a long response?",
+        "Can I avoid revision?",
+        "Which AI logo is most attractive?"
+      ],
+      "answer": 0,
+      "explanation": "Alignment to the learning objective is a key final checklist item.",
+      "reference": "Slide 15"
+    },
+    {
+      "id": "Q082",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "In the improvement of 'students solve 10 equations,' what is the first step?",
+      "options": [
+        "Partner writes the final rubric",
+        "Student independently solves one equation",
+        "AI assigns marks",
+        "Teacher reads all answers"
+      ],
+      "answer": 1,
+      "explanation": "The revised activity begins with Think, then Pair, Discuss, Explain and Reflect.",
+      "reference": "Slide 16"
+    },
+    {
+      "id": "Q083",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "What is asked in the final Reflect stage of that redesigned activity?",
+      "options": [
+        "Who finished first?",
+        "Which website was fastest?",
+        "How colorful was the worksheet?",
+        "What mistake might a student make?"
+      ],
+      "answer": 3,
+      "explanation": "Reflection targets common mathematical errors.",
+      "reference": "Slide 16"
+    },
+    {
+      "id": "Q084",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "What did the lecture report about Gurl, Markinson and Artzt's participants?",
+      "options": [
+        "They fully replaced teachers",
+        "They never used AI for planning",
+        "They recognized pedagogical weaknesses but often missed incorrect math",
+        "They evaluated AI's math more accurately than pedagogy"
+      ],
+      "answer": 2,
+      "explanation": "The lecture identifies a gap between their pedagogical and mathematical evaluation.",
+      "reference": "Slide 17"
+    },
+    {
+      "id": "Q085",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "Which construct is emphasized when research discusses adapting AI plans to teachers' classroom purposes?",
+      "options": [
+        "Model parameter counts",
+        "Only arithmetic fluency",
+        "Keyboard skills",
+        "TPACK and AI literacy"
+      ],
+      "answer": 3,
+      "explanation": "The slide explicitly links adaptation to TPACK and AI literacy.",
+      "reference": "Slide 17"
+    },
+    {
+      "id": "Q086",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "mcq",
+      "question": "Who is responsible for judging the cognitive level of AI-generated questions?",
+      "options": [
+        "The school's social media page",
+        "Only the model",
+        "The mathematics teacher",
+        "The printer"
+      ],
+      "answer": 2,
+      "explanation": "AI generates; teachers judge the questions' cognitive demand.",
+      "reference": "Slide 18"
+    },
+    {
+      "id": "Q087",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "mcq",
+      "question": "Which concise sequence titles the problem-design lecture?",
+      "options": [
+        "Generate → Check → Adapt",
+        "Program → Train → Deploy",
+        "Upload → Publish → Ignore",
+        "Memorize → Grade → Replace"
+      ],
+      "answer": 0,
+      "explanation": "The lecture's central cycle is generating, checking and adapting.",
+      "reference": "Slide 1"
+    },
+    {
+      "id": "Q088",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "mcq",
+      "question": "What is the main goal of AI-assisted mathematical problem design?",
+      "options": [
+        "Prioritize decorative contexts",
+        "Eliminate teacher judgment",
+        "Produce as many exercises as possible",
+        "Design better mathematical problems"
+      ],
+      "answer": 3,
+      "explanation": "The lecture values quality rather than sheer quantity.",
+      "reference": "Slide 2"
+    },
+    {
+      "id": "Q089",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "mcq",
+      "question": "Which step requires explaining why the revised problem suits the learners?",
+      "options": [
+        "Represent",
+        "Justify",
+        "Modify",
+        "Generate"
+      ],
+      "answer": 1,
+      "explanation": "Justification is the final learning goal.",
+      "reference": "Slide 2"
+    },
+    {
+      "id": "Q090",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "mcq",
+      "question": "What does 'vary' mean in the lecture's AI problem uses?",
+      "options": [
+        "Remove all numbers",
+        "Automatically grade students",
+        "Guarantee more difficult mathematics",
+        "Keep the mathematical structure but change the context"
+      ],
+      "answer": 3,
+      "explanation": "Varying can place the same structure in a new context.",
+      "reference": "Slide 3"
+    },
+    {
+      "id": "Q091",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "mcq",
+      "question": "Which change is specifically a representation change?",
+      "options": [
+        "Verbal → algebraic",
+        "Grade 8 → Grade 9 only",
+        "Teacher → principal",
+        "Answer → grade"
+      ],
+      "answer": 0,
+      "explanation": "The slide lists verbal, algebraic and graphical forms.",
+      "reference": "Slide 3"
+    },
+    {
+      "id": "Q092",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "mcq",
+      "question": "Why may 'Solve x² − 5x + 6 = 0' be pedagogically insufficient despite being valid?",
+      "options": [
+        "It has no roots",
+        "Factoring is never mathematics",
+        "It lacks a computer",
+        "It may not demand interpretation or reasoning aligned to the objective"
+      ],
+      "answer": 3,
+      "explanation": "Correct computation is not the same as pedagogical quality.",
+      "reference": "Slide 4"
+    },
+    {
+      "id": "Q093",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "mcq",
+      "question": "Which statement matches the lecture?",
+      "options": [
+        "Pedagogy is unnecessary if calculations are right",
+        "Mathematical validity = pedagogical quality",
+        "Mathematical validity does not guarantee pedagogical quality",
+        "More numbers always mean greater demand"
+      ],
+      "answer": 2,
+      "explanation": "The slide makes the distinction explicitly.",
+      "reference": "Slide 4"
+    },
+    {
+      "id": "Q094",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "mcq",
+      "question": "Which elements strengthen an AI mathematical problem prompt?",
+      "options": [
+        "Topic, level, objective, demand and constraints",
+        "Color, advertising and hashtags",
+        "Length alone",
+        "Model size only"
+      ],
+      "answer": 0,
+      "explanation": "These are the five components listed for purposeful generation.",
+      "reference": "Slide 5"
+    },
+    {
+      "id": "Q095",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "mcq",
+      "question": "Which problem request most clearly asks for reasoning?",
+      "options": [
+        "'Write unrelated examples'",
+        "'Create a quadratic equation'",
+        "'Create a Grade 10 task requiring interpretation, justification and explanation in context'",
+        "'Give only an answer'"
+      ],
+      "answer": 2,
+      "explanation": "It defines level and higher-order work.",
+      "reference": "Slide 5"
+    },
+    {
+      "id": "Q096",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "mcq",
+      "question": "Which is NOT one of the five checks for AI-generated problems?",
+      "options": [
+        "Solvability",
+        "Learning alignment",
+        "Authenticity",
+        "Logo attractiveness"
+      ],
+      "answer": 3,
+      "explanation": "The five checks are correctness, solvability, demand, authenticity and alignment.",
+      "reference": "Slide 6"
+    },
+    {
+      "id": "Q097",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "mcq",
+      "question": "What does solvability ask?",
+      "options": [
+        "Whether AI used a calculator",
+        "Whether the problem is popular",
+        "Whether there is enough information to solve",
+        "Whether the font is readable"
+      ],
+      "answer": 2,
+      "explanation": "A problem needs sufficient information or a deliberate reason to discuss ambiguity.",
+      "reference": "Slide 6"
+    },
+    {
+      "id": "Q098",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "mcq",
+      "question": "What does authenticity ask?",
+      "options": [
+        "Does every question have one answer?",
+        "Is the task in bold?",
+        "Was it generated in under a second?",
+        "Does the context make sense?"
+      ],
+      "answer": 3,
+      "explanation": "The realism of the setting is checked.",
+      "reference": "Slide 6"
+    },
+    {
+      "id": "Q099",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "mcq",
+      "question": "In the perimeter-40 rectangle example, what is the correct value of L + W?",
+      "options": [
+        "40",
+        "8",
+        "20",
+        "96"
+      ],
+      "answer": 2,
+      "explanation": "Dividing 2(L+W)=40 by 2 gives L+W=20.",
+      "reference": "Slide 7"
+    },
+    {
+      "id": "Q100",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "mcq",
+      "question": "For that rectangle with L = W + 4, what is the correct width?",
+      "options": [
+        "8 cm",
+        "12 cm",
+        "6 cm",
+        "10 cm"
+      ],
+      "answer": 0,
+      "explanation": "2W+4=20 gives W=8 cm.",
+      "reference": "Slide 7"
+    },
+    {
+      "id": "Q101",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "mcq",
+      "question": "What is the correct area of the rectangle from the lecture's error-check example?",
+      "options": [
+        "40 cm²",
+        "120 cm²",
+        "96 cm²",
+        "80 cm²"
+      ],
+      "answer": 2,
+      "explanation": "Dimensions are 8 cm and 12 cm, so area is 96 cm².",
+      "reference": "Slide 7"
+    },
+    {
+      "id": "Q102",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "mcq",
+      "question": "What is the first action in the six-step human-in-the-loop problem workflow?",
+      "options": [
+        "Publish the problem",
+        "Approve immediately",
+        "Ask AI to grade",
+        "Define the learning objective"
+      ],
+      "answer": 3,
+      "explanation": "The first step is defining the objective.",
+      "reference": "Slide 8"
+    },
+    {
+      "id": "Q103",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "mcq",
+      "question": "What is required between generating an AI draft and auditing it?",
+      "options": [
+        "Survey parents",
+        "Share student names",
+        "Make a title slide",
+        "Solve without AI"
+      ],
+      "answer": 3,
+      "explanation": "Independent solving checks the mathematics before evaluating pedagogy.",
+      "reference": "Slide 8"
+    },
+    {
+      "id": "Q104",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "mcq",
+      "question": "Which step comes immediately before approving the final problem?",
+      "options": [
+        "Generate the first draft",
+        "Define the objective",
+        "Adapt/improve",
+        "Delete constraints"
+      ],
+      "answer": 2,
+      "explanation": "The slide's last two steps are Adapt then Approve.",
+      "reference": "Slide 8"
+    },
+    {
+      "id": "Q105",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "mcq",
+      "question": "Which change increases cognitive demand without just adding arithmetic?",
+      "options": [
+        "Replacing 5 with 500",
+        "Repeating ten near-identical items",
+        "Increasing font size",
+        "Explaining the equation's meaning in context"
+      ],
+      "answer": 3,
+      "explanation": "Interpretation is a qualitatively richer cognitive demand.",
+      "reference": "Slide 9"
+    },
+    {
+      "id": "Q106",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "mcq",
+      "question": "What represents the slide's highest cognitive-demand example?",
+      "options": [
+        "Copy the final answer",
+        "Determine whether the solution is unique and justify",
+        "Solve 2x+5=17",
+        "Replace 17 with 117"
+      ],
+      "answer": 1,
+      "explanation": "It asks for justification of uniqueness.",
+      "reference": "Slide 9"
+    },
+    {
+      "id": "Q107",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "mcq",
+      "question": "What adaptation changes whether more than one valid answer is possible?",
+      "options": [
+        "Solutions",
+        "Lesson title",
+        "Formatting",
+        "AI brand"
+      ],
+      "answer": 0,
+      "explanation": "The 'Solutions' lever explicitly includes multiple or non-unique possibilities.",
+      "reference": "Slide 10"
+    },
+    {
+      "id": "Q108",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "mcq",
+      "question": "What is an adaptation based on 'Justification'?",
+      "options": [
+        "Remove explanations",
+        "Add a cartoon",
+        "Require proof or decision",
+        "Change only the date"
+      ],
+      "answer": 2,
+      "explanation": "It makes reasoning or defense of an answer necessary.",
+      "reference": "Slide 10"
+    },
+    {
+      "id": "Q109",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "mcq",
+      "question": "Which adaptation best describes moving routine calculations toward mathematical modelling?",
+      "options": [
+        "Publishing",
+        "Marking",
+        "Abstraction",
+        "Decoration"
+      ],
+      "answer": 2,
+      "explanation": "The slide labels this as abstraction.",
+      "reference": "Slide 10"
+    },
+    {
+      "id": "Q110",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "mcq",
+      "question": "What is one adaptation concerning information?",
+      "options": [
+        "Remove every condition",
+        "Always provide every clue",
+        "Only enlarge numbers",
+        "Add irrelevant or missing information for students to evaluate"
+      ],
+      "answer": 3,
+      "explanation": "The slide includes varying the relevance and completeness of information.",
+      "reference": "Slide 10"
+    },
+    {
+      "id": "Q111",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "mcq",
+      "question": "What is the original garden's stated area?",
+      "options": [
+        "44 m²",
+        "96 m²",
+        "240 m²",
+        "120 m²"
+      ],
+      "answer": 3,
+      "explanation": "The original worked example starts with 120 m².",
+      "reference": "Slide 11"
+    },
+    {
+      "id": "Q112",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "mcq",
+      "question": "Which restriction is added in the adapted garden problem?",
+      "options": [
+        "A circular fence",
+        "Width must be irrational",
+        "44 m of fencing and area at least 120 m²",
+        "Perimeter must equal 40 m"
+      ],
+      "answer": 2,
+      "explanation": "The revised garden problem introduces constraints and possible multiple dimensions.",
+      "reference": "Slide 11"
+    },
+    {
+      "id": "Q113",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "mcq",
+      "question": "With 44 m of fencing, which equation expresses a rectangular garden's perimeter constraint?",
+      "options": [
+        "L²+W²=44",
+        "L+W=44",
+        "L+W=22",
+        "LW=44"
+      ],
+      "answer": 2,
+      "explanation": "2(L+W)=44, so L+W=22.",
+      "reference": "Slide 14"
+    },
+    {
+      "id": "Q114",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "mcq",
+      "question": "Which unordered integer dimension pairs meet 44 m perimeter and area at least 120 m²?",
+      "options": [
+        "(6,16) only",
+        "(10,12) and (11,11)",
+        "(8,14) only",
+        "(9,13) and (8,14)"
+      ],
+      "answer": 1,
+      "explanation": "Areas are 120 and 121 m²; neighboring integer pairs are below 120.",
+      "reference": "Slide 14"
+    },
+    {
+      "id": "Q115",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "mcq",
+      "question": "How does the lecture suggest using AI as a problem-posing partner?",
+      "options": [
+        "Ask only for an answer key",
+        "Request 10 questions and accept all",
+        "Ask for three ways to increase cognitive demand, then critique suggestions",
+        "Avoid changing the problem"
+      ],
+      "answer": 2,
+      "explanation": "AI proposes alternatives and critiques; the teacher selects.",
+      "reference": "Slide 12"
+    },
+    {
+      "id": "Q116",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "mcq",
+      "question": "What was central to Walkington et al.'s 2026 problem-posing work, as cited in the slides?",
+      "options": [
+        "Using students' interests and iteratively revising problems",
+        "Proving a new theorem",
+        "Training a visualization generator",
+        "Replacing all problems with tests"
+      ],
+      "answer": 0,
+      "explanation": "The lecture connects personalized contexts with evaluation and revision.",
+      "reference": "Slide 13"
+    },
+    {
+      "id": "Q117",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "mcq",
+      "question": "What was the key idea ascribed to Cheng et al. (2025)?",
+      "options": [
+        "Generate mathematical questions guided by educational objectives",
+        "Give only routine algebra",
+        "Ignore curriculum objectives",
+        "Always use students' hobbies"
+      ],
+      "answer": 0,
+      "explanation": "The cited framework links objectives to question generation.",
+      "reference": "Slide 13"
+    },
+    {
+      "id": "Q118",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "mcq",
+      "question": "What activity is included in the 'AI Problem Designer & Critic' practical task?",
+      "options": [
+        "Exchange a problem so a partner solves it",
+        "Hide the objective",
+        "Skip the final redesign",
+        "Trust the AI's answer without review"
+      ],
+      "answer": 0,
+      "explanation": "Peer solving and redesign are part of the task.",
+      "reference": "Slide 16"
+    },
+    {
+      "id": "Q119",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "mcq",
+      "question": "Which statement best captures the Week 4 takeaway?",
+      "options": [
+        "AI generates possibilities; teachers verify mathematics and improve pedagogy",
+        "A generated problem is ready for immediate grading",
+        "AI determines whether every problem is worth using",
+        "Visual appearance determines mathematical correctness"
+      ],
+      "answer": 0,
+      "explanation": "It divides responsibility among AI, mathematics, pedagogy and the teacher.",
+      "reference": "Slide 15"
+    },
+    {
+      "id": "Q120",
+      "topic": 4,
+      "source": "AI for Mathematical Explanations.pptx",
+      "type": "mcq",
+      "question": "Which response better supports understanding when factoring x² −5x+6?",
+      "options": [
+        "Only 'x=2,3'",
+        "A response explaining the factor choice and zero-product step",
+        "A response omitting the equation",
+        "A response that gives no mathematical reason"
+      ],
+      "answer": 1,
+      "explanation": "Explanatory steps help learners see how the result follows.",
+      "reference": "Slide 2"
+    },
+    {
+      "id": "Q121",
+      "topic": 4,
+      "source": "AI for Mathematical Explanations.pptx",
+      "type": "mcq",
+      "question": "What is a mathematical explanation?",
+      "options": [
+        "A list of unrelated formulas",
+        "Only a colorful visual",
+        "A final answer without steps",
+        "A description of why a mathematical result, process or relation is valid"
+      ],
+      "answer": 3,
+      "explanation": "It includes why, how, what and meaning.",
+      "reference": "Slide 3"
+    },
+    {
+      "id": "Q122",
+      "topic": 4,
+      "source": "AI for Mathematical Explanations.pptx",
+      "type": "mcq",
+      "question": "Which element asks students to interpret a result rather than just calculate it?",
+      "options": [
+        "Meaning",
+        "Screen size",
+        "Token count",
+        "Formatting"
+      ],
+      "answer": 0,
+      "explanation": "The lecture asks 'What does the result mean?'",
+      "reference": "Slide 3"
+    },
+    {
+      "id": "Q123",
+      "topic": 4,
+      "source": "AI for Mathematical Explanations.pptx",
+      "type": "mcq",
+      "question": "Which explanation type describes HOW to solve?",
+      "options": [
+        "Visual",
+        "Conceptual",
+        "Metacognitive",
+        "Procedural"
+      ],
+      "answer": 3,
+      "explanation": "Procedural explanation focuses on method and steps.",
+      "reference": "Slide 4"
+    },
+    {
+      "id": "Q124",
+      "topic": 4,
+      "source": "AI for Mathematical Explanations.pptx",
+      "type": "mcq",
+      "question": "Which explanation type describes WHY a concept works?",
+      "options": [
+        "Administrative",
+        "Metacognitive",
+        "Visual",
+        "Conceptual"
+      ],
+      "answer": 3,
+      "explanation": "Conceptual explanation addresses mathematical reasons.",
+      "reference": "Slide 4"
+    },
+    {
+      "id": "Q125",
+      "topic": 4,
+      "source": "AI for Mathematical Explanations.pptx",
+      "type": "mcq",
+      "question": "Which explanation type uses graphs, diagrams and models?",
+      "options": [
+        "Visual",
+        "Metacognitive",
+        "Linguistic prediction",
+        "Procedural"
+      ],
+      "answer": 0,
+      "explanation": "Representations are the core of visual explanation.",
+      "reference": "Slide 4"
+    },
+    {
+      "id": "Q126",
+      "topic": 4,
+      "source": "AI for Mathematical Explanations.pptx",
+      "type": "mcq",
+      "question": "Which explanation type explains how to think about a problem?",
+      "options": [
+        "Administrative",
+        "Metacognitive",
+        "Visual",
+        "Numerical"
+      ],
+      "answer": 1,
+      "explanation": "Metacognitive guidance addresses thought processes and strategy.",
+      "reference": "Slide 4"
+    },
+    {
+      "id": "Q127",
+      "topic": 4,
+      "source": "AI for Mathematical Explanations.pptx",
+      "type": "mcq",
+      "question": "Which is a possible use of AI when preparing explanations?",
+      "options": [
+        "Replace learning objectives",
+        "Guarantee rigor without review",
+        "Identify likely misconceptions",
+        "Know all individual student needs automatically"
+      ],
+      "answer": 2,
+      "explanation": "Suggesting misconceptions is one listed function.",
+      "reference": "Slide 5"
+    },
+    {
+      "id": "Q128",
+      "topic": 4,
+      "source": "AI for Mathematical Explanations.pptx",
+      "type": "mcq",
+      "question": "Which explanation of a derivative is pitched at a 12-year-old in the lecture?",
+      "options": [
+        "How fast something is changing",
+        "The limit of a quotient",
+        "A formal ε–δ proof",
+        "A matrix of Jacobians"
+      ],
+      "answer": 0,
+      "explanation": "The everyday rate-of-change description is used for younger students.",
+      "reference": "Slide 6"
+    },
+    {
+      "id": "Q129",
+      "topic": 4,
+      "source": "AI for Mathematical Explanations.pptx",
+      "type": "mcq",
+      "question": "Which description is given at high-school level?",
+      "options": [
+        "Derivative as a theorem about prime numbers",
+        "Derivative as an indefinite integral",
+        "Derivative as the slope of the graph at a point",
+        "Derivative as an average of all y values"
+      ],
+      "answer": 2,
+      "explanation": "The middle-level explanation is geometric slope.",
+      "reference": "Slide 6"
+    },
+    {
+      "id": "Q130",
+      "topic": 4,
+      "source": "AI for Mathematical Explanations.pptx",
+      "type": "mcq",
+      "question": "Which description is the university-level derivative explanation?",
+      "options": [
+        "The number of graph points",
+        "The limit of a difference quotient as the increment tends to zero",
+        "Only the direction of the curve",
+        "The degree of a polynomial"
+      ],
+      "answer": 1,
+      "explanation": "The lecture's formal definition uses a limit.",
+      "reference": "Slide 6"
+    },
+    {
+      "id": "Q131",
+      "topic": 4,
+      "source": "AI for Mathematical Explanations.pptx",
+      "type": "mcq",
+      "question": "In CLEAR, what does C mean?",
+      "options": [
+        "Communication",
+        "Coursework",
+        "Calculation",
+        "Context"
+      ],
+      "answer": 3,
+      "explanation": "C asks who the learner is.",
+      "reference": "Slide 7"
+    },
+    {
+      "id": "Q132",
+      "topic": 4,
+      "source": "AI for Mathematical Explanations.pptx",
+      "type": "mcq",
+      "question": "In CLEAR, what does L mean?",
+      "options": [
+        "Language model",
+        "Level of AI model",
+        "Learning objective",
+        "Lesson length only"
+      ],
+      "answer": 2,
+      "explanation": "L asks what the learner should understand.",
+      "reference": "Slide 7"
+    },
+    {
+      "id": "Q133",
+      "topic": 4,
+      "source": "AI for Mathematical Explanations.pptx",
+      "type": "mcq",
+      "question": "In CLEAR, what does E mean?",
+      "options": [
+        "Explanation",
+        "Efficiency",
+        "Example count",
+        "Evaluation only"
+      ],
+      "answer": 0,
+      "explanation": "E specifies how the concept should be explained.",
+      "reference": "Slide 7"
+    },
+    {
+      "id": "Q134",
+      "topic": 4,
+      "source": "AI for Mathematical Explanations.pptx",
+      "type": "mcq",
+      "question": "In CLEAR, what does A mean?",
+      "options": [
+        "Accuracy",
+        "Automation",
+        "Abstraction",
+        "Assessment"
+      ],
+      "answer": 0,
+      "explanation": "A prompts mathematical accuracy checking.",
+      "reference": "Slide 7"
+    },
+    {
+      "id": "Q135",
+      "topic": 4,
+      "source": "AI for Mathematical Explanations.pptx",
+      "type": "mcq",
+      "question": "In CLEAR, what does R mean?",
+      "options": [
+        "Research",
+        "Representation",
+        "Recitation",
+        "Reward"
+      ],
+      "answer": 1,
+      "explanation": "R requests examples, visuals and alternative representations.",
+      "reference": "Slide 7"
+    },
+    {
+      "id": "Q136",
+      "topic": 4,
+      "source": "AI for Mathematical Explanations.pptx",
+      "type": "mcq",
+      "question": "Why is 'Explain derivatives' a weak prompt?",
+      "options": [
+        "It is a mathematically false request",
+        "Derivatives cannot be explained",
+        "It lacks learner, structure, examples and accuracy criteria",
+        "It includes too many instructions"
+      ],
+      "answer": 2,
+      "explanation": "The improved prompt gives role, audience, explanation structure and checks.",
+      "reference": "Slide 8"
+    },
+    {
+      "id": "Q137",
+      "topic": 4,
+      "source": "AI for Mathematical Explanations.pptx",
+      "type": "mcq",
+      "question": "What condition is missing from the incorrect AI continuity explanation?",
+      "options": [
+        "f(a) is undefined",
+        "lim(x→a) f(x) = f(a)",
+        "The function must be polynomial",
+        "The function must be differentiable"
+      ],
+      "answer": 1,
+      "explanation": "Continuity requires equality of the limit and function value.",
+      "reference": "Slide 9"
+    },
+    {
+      "id": "Q138",
+      "topic": 4,
+      "source": "AI for Mathematical Explanations.pptx",
+      "type": "mcq",
+      "question": "If f(a) and lim(x→a) f(x) exist but are unequal, what follows?",
+      "options": [
+        "f must be constant",
+        "f is continuous at a",
+        "f must have a tangent line",
+        "f is not continuous at a"
+      ],
+      "answer": 3,
+      "explanation": "The stated equality fails, so continuity fails.",
+      "reference": "Slide 9"
+    },
+    {
+      "id": "Q139",
+      "topic": 4,
+      "source": "AI for Mathematical Explanations.pptx",
+      "type": "mcq",
+      "question": "Which criterion asks whether steps follow logically?",
+      "options": [
+        "Font size",
+        "Logical coherence",
+        "Difficulty only",
+        "Completeness only"
+      ],
+      "answer": 1,
+      "explanation": "Coherence is logical connection from step to step.",
+      "reference": "Slide 10"
+    },
+    {
+      "id": "Q140",
+      "topic": 4,
+      "source": "AI for Mathematical Explanations.pptx",
+      "type": "mcq",
+      "question": "Which criterion asks whether necessary assumptions were omitted?",
+      "options": [
+        "Screen design",
+        "Response speed",
+        "Completeness",
+        "Accuracy only"
+      ],
+      "answer": 2,
+      "explanation": "Completeness checks for missing steps and assumptions.",
+      "reference": "Slide 10"
+    },
+    {
+      "id": "Q141",
+      "topic": 4,
+      "source": "AI for Mathematical Explanations.pptx",
+      "type": "mcq",
+      "question": "Which criterion asks whether an explanation will actually support understanding?",
+      "options": [
+        "Word count",
+        "Citation count",
+        "Pedagogical value",
+        "Model size"
+      ],
+      "answer": 2,
+      "explanation": "Pedagogical value is separate from mathematical accuracy.",
+      "reference": "Slide 10"
+    },
+    {
+      "id": "Q142",
+      "topic": 4,
+      "source": "AI for Mathematical Explanations.pptx",
+      "type": "mcq",
+      "question": "Which example is used to motivate a visual explanation of a general pattern?",
+      "options": [
+        "2x+5=17 only",
+        "1 + 3 + 5 + ... + (2n−1) = n²",
+        "The area of a cube",
+        "The quadratic formula derivation"
+      ],
+      "answer": 1,
+      "explanation": "The slide requests a geometric explanation of odd-number sums.",
+      "reference": "Slide 11"
+    },
+    {
+      "id": "Q143",
+      "topic": 4,
+      "source": "AI for Mathematical Explanations.pptx",
+      "type": "mcq",
+      "question": "Which responsibility remains with the teacher rather than AI?",
+      "options": [
+        "Provide language variants",
+        "List potential misconceptions",
+        "Generate a possible analogy",
+        "Choose appropriate explanations for actual students"
+      ],
+      "answer": 3,
+      "explanation": "Teachers judge suitability and understand student difficulties.",
+      "reference": "Slide 12"
+    },
+    {
+      "id": "Q144",
+      "topic": 4,
+      "source": "AI for Mathematical Explanations.pptx",
+      "type": "mcq",
+      "question": "What is the lecture's explanation-improvement cycle?",
+      "options": [
+        "Predict → Copy → Memorize → Submit",
+        "Observe → Ignore → Replace → Repeat",
+        "Generate → Check → Critique → Improve",
+        "Write → Grade → Publish → Delete"
+      ],
+      "answer": 2,
+      "explanation": "The cycle emphasizes verification and pedagogical refinement.",
+      "reference": "Slide 13"
+    },
+    {
+      "id": "Q145",
+      "topic": 4,
+      "source": "AI for Mathematical Explanations.pptx",
+      "type": "mcq",
+      "question": "Which two checks appear after an AI explanation in the slide's workflow?",
+      "options": [
+        "Verification and pedagogical evaluation",
+        "Advertising and payment",
+        "Translation and secrecy",
+        "Printing and uploading"
+      ],
+      "answer": 0,
+      "explanation": "A generated explanation is evaluated mathematically and educationally.",
+      "reference": "Slide 13"
+    },
+    {
+      "id": "Q146",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "mcq",
+      "question": "What is mathematical visualization according to the lecture?",
+      "options": [
+        "Using diagrams, graphs or dynamic representations to reveal mathematical relationships",
+        "Making math pages look attractive",
+        "Replacing all mathematical symbols with images",
+        "Presenting final answers without exploration"
+      ],
+      "answer": 0,
+      "explanation": "The purpose is to make structure, change and relationships visible.",
+      "reference": "Slide 3"
+    },
+    {
+      "id": "Q147",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "mcq",
+      "question": "Which three forms of representation does visualization connect?",
+      "options": [
+        "Text, revenue and grades",
+        "Symbolic, visual and verbal",
+        "Auditory, musical and athletic",
+        "Formal, informal and hidden"
+      ],
+      "answer": 1,
+      "explanation": "The slide names these three connected forms.",
+      "reference": "Slide 3"
+    },
+    {
+      "id": "Q148",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "mcq",
+      "question": "Which is a stated benefit of mathematical visualization?",
+      "options": [
+        "Eliminating the need for proofs",
+        "Replacing every equation",
+        "Guaranteeing understanding for every learner",
+        "Seeing patterns and invariants"
+      ],
+      "answer": 3,
+      "explanation": "Visualization makes structures and invariants observable.",
+      "reference": "Slide 4"
+    },
+    {
+      "id": "Q149",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "mcq",
+      "question": "How should a visualization relate to mathematical reasoning?",
+      "options": [
+        "Replace the student's proof",
+        "Avoid comparison",
+        "Help learners make conjectures and ask questions",
+        "Give away conclusions before prediction"
+      ],
+      "answer": 2,
+      "explanation": "A visual should provoke thinking, not replace it.",
+      "reference": "Slide 4"
+    },
+    {
+      "id": "Q150",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "mcq",
+      "question": "Which is a static visualization example?",
+      "options": [
+        "A textbook diagram",
+        "Draggable GeoGebra point",
+        "An adjustable simulation",
+        "A live slider"
+      ],
+      "answer": 0,
+      "explanation": "A textbook diagram is controlled and noninteractive.",
+      "reference": "Slide 5"
+    },
+    {
+      "id": "Q151",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "mcq",
+      "question": "What is a major strength of interactive visualization?",
+      "options": [
+        "It never distracts",
+        "It always teaches better",
+        "It requires no learning objective",
+        "Students can manipulate objects and test relationships"
+      ],
+      "answer": 3,
+      "explanation": "Interaction enables what-if exploration.",
+      "reference": "Slide 5"
+    },
+    {
+      "id": "Q152",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "mcq",
+      "question": "What limitation of interactive visuals is stressed?",
+      "options": [
+        "They cannot show graphs",
+        "They cannot include formulas",
+        "Manipulation can distract from the mathematical goal",
+        "They must be black and white"
+      ],
+      "answer": 2,
+      "explanation": "Interaction needs a focused purpose.",
+      "reference": "Slide 5"
+    },
+    {
+      "id": "Q153",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "mcq",
+      "question": "What is one limitation of static diagrams?",
+      "options": [
+        "They cannot be printed",
+        "Students cannot change variables themselves",
+        "They are always inaccurate",
+        "They cannot show labels"
+      ],
+      "answer": 1,
+      "explanation": "Static representations do not allow variable manipulation.",
+      "reference": "Slide 5"
+    },
+    {
+      "id": "Q154",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "mcq",
+      "question": "Which is NOT one of the four good-visual principles?",
+      "options": [
+        "Mathematical accuracy",
+        "Maximum number of controls",
+        "Interaction with purpose",
+        "Cognitive focus"
+      ],
+      "answer": 1,
+      "explanation": "Extra controls often distract rather than clarify.",
+      "reference": "Slide 6"
+    },
+    {
+      "id": "Q155",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "mcq",
+      "question": "What is cognitive focus in visualization design?",
+      "options": [
+        "Hide the mathematical relationship",
+        "Use as many colors as possible",
+        "Prefer complex menus",
+        "Remove information unrelated to the learning goal"
+      ],
+      "answer": 3,
+      "explanation": "The display should emphasize what students need to notice.",
+      "reference": "Slide 6"
+    },
+    {
+      "id": "Q156",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "mcq",
+      "question": "What does 'representation' mean as a design principle?",
+      "options": [
+        "Use diagrams instead of any words",
+        "Only show algebraic notation",
+        "Always use a pie chart",
+        "Choose a form that exposes the target relationship"
+      ],
+      "answer": 3,
+      "explanation": "Form follows the mathematical idea.",
+      "reference": "Slide 6"
+    },
+    {
+      "id": "Q157",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "mcq",
+      "question": "What must each slider or click ideally achieve?",
+      "options": [
+        "Prevent students from reasoning",
+        "Answer a mathematical question",
+        "Make animation longer",
+        "Increase decorative complexity"
+      ],
+      "answer": 1,
+      "explanation": "Interaction with purpose serves a specific learning goal.",
+      "reference": "Slide 6"
+    },
+    {
+      "id": "Q158",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "mcq",
+      "question": "Which pitfall means the resource is attractive but mathematically uninformative?",
+      "options": [
+        "Decoration over meaning",
+        "Unclear timing",
+        "Lack of assessment",
+        "Incorrect alignment"
+      ],
+      "answer": 0,
+      "explanation": "Decoration alone does not reveal ideas.",
+      "reference": "Slide 7"
+    },
+    {
+      "id": "Q159",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "mcq",
+      "question": "What is risky about providing five unrelated sliders?",
+      "options": [
+        "They may hide which parameter causes which change",
+        "They guarantee correct understanding",
+        "They remove the need for labels",
+        "They are always easier than one slider"
+      ],
+      "answer": 0,
+      "explanation": "Too many controls obscure causal relationships.",
+      "reference": "Slide 7"
+    },
+    {
+      "id": "Q160",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "mcq",
+      "question": "Why can a visualization that immediately reveals the conclusion be weak?",
+      "options": [
+        "It prevents students from predicting and justifying",
+        "It has too little color",
+        "It requires students to reason",
+        "It uses too few pixels"
+      ],
+      "answer": 0,
+      "explanation": "The lecture warns against giving away the answer.",
+      "reference": "Slide 7"
+    },
+    {
+      "id": "Q161",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "mcq",
+      "question": "Which is an 'unchecked accuracy' issue?",
+      "options": [
+        "Wrong axis labels or scales",
+        "A predictable slider",
+        "A clear objective",
+        "A tested graph"
+      ],
+      "answer": 0,
+      "explanation": "Incorrect labels or scales undermine the visual.",
+      "reference": "Slide 7"
+    },
+    {
+      "id": "Q162",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "mcq",
+      "question": "What is the correct order for designing a visualization?",
+      "options": [
+        "Software → Upload → Objectives",
+        "Learning goal → Representation → Technology",
+        "Technology → Learning goal → Representation",
+        "Animation → Color → Formula"
+      ],
+      "answer": 1,
+      "explanation": "The lecture says tool last, learning goal first.",
+      "reference": "Slide 8"
+    },
+    {
+      "id": "Q163",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "mcq",
+      "question": "Which tool is listed as a mathematical visualization option?",
+      "options": [
+        "Attendance register only",
+        "Email inbox",
+        "Spreadsheet encryption",
+        "Desmos"
+      ],
+      "answer": 3,
+      "explanation": "Desmos is among the named options.",
+      "reference": "Slide 8"
+    },
+    {
+      "id": "Q164",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "mcq",
+      "question": "In y = a(x−h)²+k, which parameter controls vertical stretch or reflection?",
+      "options": [
+        "a",
+        "x alone",
+        "h",
+        "k"
+      ],
+      "answer": 0,
+      "explanation": "Changing a alters stretch and may reflect the parabola.",
+      "reference": "Slide 9"
+    },
+    {
+      "id": "Q165",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "mcq",
+      "question": "In y = a(x−h)²+k, which parameter shifts the graph horizontally?",
+      "options": [
+        "The exponent",
+        "k",
+        "h",
+        "a"
+      ],
+      "answer": 2,
+      "explanation": "The vertex's x-coordinate is h.",
+      "reference": "Slide 9"
+    },
+    {
+      "id": "Q166",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "mcq",
+      "question": "In y = a(x−h)²+k, which parameter shifts the graph vertically?",
+      "options": [
+        "The exponent",
+        "h",
+        "k",
+        "a"
+      ],
+      "answer": 2,
+      "explanation": "The vertex's y-coordinate is k.",
+      "reference": "Slide 9"
+    },
+    {
+      "id": "Q167",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "mcq",
+      "question": "Which sequence best describes the learning task with sliders?",
+      "options": [
+        "Memorize → Ignore → Submit",
+        "Animate → Photograph → Grade",
+        "Move → Copy → Finish",
+        "Predict → Manipulate → Explain"
+      ],
+      "answer": 3,
+      "explanation": "Students should predict before moving and explain afterward.",
+      "reference": "Slide 9"
+    },
+    {
+      "id": "Q168",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "mcq",
+      "question": "How can the quadratic visualization be audited for mathematical accuracy?",
+      "options": [
+        "Count button clicks",
+        "Check only its colors",
+        "Compare parameter changes with correctly calculated graphs and vertices",
+        "Ask students whether it looks nice"
+      ],
+      "answer": 2,
+      "explanation": "Graph behavior must match the algebraic relationships.",
+      "reference": "Slide 10"
+    },
+    {
+      "id": "Q169",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "mcq",
+      "question": "What geometric objects are used in the derivative visualization?",
+      "options": [
+        "Secant and tangent lines",
+        "Two unrelated circles",
+        "Only a histogram",
+        "Only a pie chart"
+      ],
+      "answer": 0,
+      "explanation": "A moving secant approaching the tangent illustrates instantaneous slope.",
+      "reference": "Slide 11"
+    },
+    {
+      "id": "Q170",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "mcq",
+      "question": "What does the moving second point show as it approaches the first?",
+      "options": [
+        "The curve becoming linear everywhere",
+        "Secant slope approaching tangent slope",
+        "The average value increasing forever",
+        "The function disappearing"
+      ],
+      "answer": 1,
+      "explanation": "This makes the limit process visible.",
+      "reference": "Slide 11"
+    },
+    {
+      "id": "Q171",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "mcq",
+      "question": "Which expression is used for the derivative's definition in the lecture?",
+      "options": [
+        "f(x)/h for any h",
+        "f(x+h)+f(x)",
+        "lim(h→0)[f(x+h)−f(x)]/h",
+        "lim(h→∞) f(x)"
+      ],
+      "answer": 2,
+      "explanation": "The definition is the limit of the difference quotient.",
+      "reference": "Slide 11"
+    },
+    {
+      "id": "Q172",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "mcq",
+      "question": "For the slide's f(x)=x²/2 example, what is f′(1)?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "The stated derivative example reaches tangent slope 1 at x=1.",
+      "reference": "Slide 11"
+    },
+    {
+      "id": "Q173",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "mcq",
+      "question": "Why must the derivative visualization be linked to the formal definition?",
+      "options": [
+        "The formula is irrelevant",
+        "A picture shows a limiting idea but does not replace the mathematical definition",
+        "The picture guarantees an exact proof",
+        "The tangent can never be drawn"
+      ],
+      "answer": 1,
+      "explanation": "Visual intuition and symbolic definition complement each other.",
+      "reference": "Slide 11"
+    },
+    {
+      "id": "Q174",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "mcq",
+      "question": "How many student reasoning questions are required in the in-class visual design task?",
+      "options": [
+        "Ten",
+        "Two",
+        "Five",
+        "One"
+      ],
+      "answer": 1,
+      "explanation": "The individual sketch task asks for two interpretation/reasoning questions.",
+      "reference": "Slide 12"
+    },
+    {
+      "id": "Q175",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "mcq",
+      "question": "What is the purpose of the two-minute peer check?",
+      "options": [
+        "Give a final grade automatically",
+        "Ensure another learner sees the intended mathematical idea",
+        "Compare who drew prettiest",
+        "Remove all questions"
+      ],
+      "answer": 1,
+      "explanation": "Peer feedback identifies useful features and distractions.",
+      "reference": "Slide 13"
+    },
+    {
+      "id": "Q176",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "mcq",
+      "question": "What must accompany the independent visualization resource submission?",
+      "options": [
+        "Only a screenshot without explanation",
+        "An API key",
+        "A 150–200 word explanation of how it supports learning",
+        "A published article"
+      ],
+      "answer": 2,
+      "explanation": "The lecture specifies the explanatory word range.",
+      "reference": "Slide 14"
+    },
+    {
+      "id": "Q177",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "mcq",
+      "question": "Which four checks form the visualization evaluation rubric?",
+      "options": [
+        "Grading, attendance, homework, exam",
+        "Time, color, length, clicks",
+        "Accuracy, clarity, purpose, thinking",
+        "Cost, popularity, speed, design"
+      ],
+      "answer": 2,
+      "explanation": "All four are named on the rubric slide.",
+      "reference": "Slide 15"
+    },
+    {
+      "id": "Q178",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "mcq",
+      "question": "Which criterion asks whether students must predict, compare, explain or justify?",
+      "options": [
+        "Color scheme",
+        "Accuracy only",
+        "Clarity",
+        "Thinking"
+      ],
+      "answer": 3,
+      "explanation": "Thinking evaluates the cognitive work prompted by the resource.",
+      "reference": "Slide 15"
+    },
+    {
+      "id": "Q179",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "mcq",
+      "question": "Which is a common AI-created visualization error?",
+      "options": [
+        "Incorrect mathematics is impossible",
+        "Guaranteed correct axes",
+        "Only problems with spelling",
+        "Subtle code, label or graph errors"
+      ],
+      "answer": 3,
+      "explanation": "AI can suggest code but cannot guarantee mathematical correctness.",
+      "reference": "Slide 16"
+    },
+    {
+      "id": "Q180",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "mcq",
+      "question": "Which sequence expresses a successful visualization experience?",
+      "options": [
+        "See → Explore → Reason → Explain",
+        "Watch → Trust → Copy → Submit",
+        "Prompt → Ignore → Publish → End",
+        "Decorate → Resize → Print → Grade"
+      ],
+      "answer": 0,
+      "explanation": "The final slide gives this four-stage takeaway.",
+      "reference": "Slide 17"
+    },
+    {
+      "id": "Q181",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "mcq",
+      "question": "What is the overall aim of the differentiation lecture?",
+      "options": [
+        "Design meaningful mathematics tasks for different readiness levels",
+        "Make every task easy",
+        "Create identical worksheets for every student",
+        "Let AI determine permanent student labels"
+      ],
+      "answer": 0,
+      "explanation": "The focus is purposeful adaptation while protecting learning goals.",
+      "reference": "Slide 2"
+    },
+    {
+      "id": "Q182",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "mcq",
+      "question": "What does the lecture suggest fairness can involve?",
+      "options": [
+        "Adapting pathways while keeping ambitious shared expectations",
+        "Always giving exactly the same task",
+        "Lowering all expectations",
+        "Sorting students forever"
+      ],
+      "answer": 0,
+      "explanation": "Equity need not mean identical treatment.",
+      "reference": "Slide 3"
+    },
+    {
+      "id": "Q183",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "mcq",
+      "question": "How does the lecture define differentiated instruction?",
+      "options": [
+        "Unplanned changes to grading",
+        "Using AI to classify students by intelligence",
+        "Planned teaching responsive to readiness, interests and needs while keeping clear goals",
+        "Only easier homework for one group"
+      ],
+      "answer": 2,
+      "explanation": "Differentiation matches learners and instruction intentionally.",
+      "reference": "Slide 4"
+    },
+    {
+      "id": "Q184",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "mcq",
+      "question": "What does learner readiness ask?",
+      "options": [
+        "What learners already understand and their next achievable step",
+        "Whether students are always advanced",
+        "Which AI model is newest",
+        "Whether students own a smartphone"
+      ],
+      "answer": 0,
+      "explanation": "Readiness is prior knowledge plus a viable next step.",
+      "reference": "Slide 4"
+    },
+    {
+      "id": "Q185",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "mcq",
+      "question": "What is scaffolding?",
+      "options": [
+        "Removing the learning objective",
+        "Temporary support enabling progress toward independence",
+        "Permanent dependence on an answer key",
+        "Giving the full solution immediately"
+      ],
+      "answer": 1,
+      "explanation": "It supports student agency until independence grows.",
+      "reference": "Slide 4"
+    },
+    {
+      "id": "Q186",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "mcq",
+      "question": "What is formative assessment used for in differentiated teaching?",
+      "options": [
+        "Only rank learners permanently",
+        "Gather evidence of understanding to guide the next teaching move",
+        "Choose a model vendor",
+        "Replace every explanation with marks"
+      ],
+      "answer": 1,
+      "explanation": "Formative evidence informs adaptation.",
+      "reference": "Slide 4"
+    },
+    {
+      "id": "Q187",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "mcq",
+      "question": "Why are three difficulty-labelled worksheets alone not sufficient?",
+      "options": [
+        "All tasks must be identical",
+        "They always have too many questions",
+        "Differentiation also requires alignment, support and meaningful cognitive demand",
+        "Differentiation never involves difficulty"
+      ],
+      "answer": 2,
+      "explanation": "The slide warns against equating differentiation with easy/medium/hard labels.",
+      "reference": "Slide 4"
+    },
+    {
+      "id": "Q188",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "mcq",
+      "question": "Which differentiation dimension concerns WHAT students learn?",
+      "options": [
+        "Environment",
+        "Process",
+        "Content",
+        "Product"
+      ],
+      "answer": 2,
+      "explanation": "Content addresses representations and entry points to the concept.",
+      "reference": "Slide 5"
+    },
+    {
+      "id": "Q189",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "mcq",
+      "question": "Which dimension concerns HOW students learn?",
+      "options": [
+        "Environment",
+        "Process",
+        "Content",
+        "Product"
+      ],
+      "answer": 1,
+      "explanation": "Process includes guided inquiry, manipulatives and worked examples.",
+      "reference": "Slide 5"
+    },
+    {
+      "id": "Q190",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "mcq",
+      "question": "Which dimension concerns HOW understanding is demonstrated?",
+      "options": [
+        "Product",
+        "Content",
+        "Process",
+        "Environment"
+      ],
+      "answer": 0,
+      "explanation": "A graph, written proof or oral defence are products.",
+      "reference": "Slide 5"
+    },
+    {
+      "id": "Q191",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "mcq",
+      "question": "Which dimension concerns WHERE and under what conditions students learn?",
+      "options": [
+        "Objective",
+        "Content",
+        "Product",
+        "Environment"
+      ],
+      "answer": 3,
+      "explanation": "Environment can include quiet study or structured collaboration.",
+      "reference": "Slide 5"
+    },
+    {
+      "id": "Q192",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "mcq",
+      "question": "Which is an example of differentiating the product?",
+      "options": [
+        "Repeat the same instruction",
+        "Offer a worked example",
+        "Change seat arrangement",
+        "Allow a graph or written explanation as evidence of understanding"
+      ],
+      "answer": 3,
+      "explanation": "Product varies how learners show the same understanding.",
+      "reference": "Slide 5"
+    },
+    {
+      "id": "Q193",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "mcq",
+      "question": "Which AI help is an example of scaffolding?",
+      "options": [
+        "Give a prerequisite reminder or first hint",
+        "Assign fixed labels",
+        "Reveal every final answer before trying",
+        "Ignore errors"
+      ],
+      "answer": 0,
+      "explanation": "Hints and reminders can support progress without taking over.",
+      "reference": "Slide 6"
+    },
+    {
+      "id": "Q194",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "mcq",
+      "question": "Which is a useful AI-supported feedback function?",
+      "options": [
+        "Explain a likely misconception and suggest a next step",
+        "Delete wrong answers without explanation",
+        "Automatically know why each student erred",
+        "Replace all human judgment"
+      ],
+      "answer": 0,
+      "explanation": "The slides suggest misconception-based feedback as a draft.",
+      "reference": "Slide 6"
+    },
+    {
+      "id": "Q195",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "mcq",
+      "question": "What does the teacher remain responsible for?",
+      "options": [
+        "Nothing after AI responds",
+        "Accuracy, inclusion, privacy and instructional decisions",
+        "Only classroom hardware",
+        "Only word count"
+      ],
+      "answer": 1,
+      "explanation": "Teachers retain responsibility for ethical and educational quality.",
+      "reference": "Slide 6"
+    },
+    {
+      "id": "Q196",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "mcq",
+      "question": "What is the shared objective across the three quadratic pathways?",
+      "options": [
+        "Memorize an AI definition",
+        "Draw any unrelated graph",
+        "Use a parameter without solving",
+        "Solve a quadratic equation and justify its solution"
+      ],
+      "answer": 3,
+      "explanation": "All pathways preserve the same objective.",
+      "reference": "Slide 7"
+    },
+    {
+      "id": "Q197",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "mcq",
+      "question": "What is characteristic of the foundational quadratic pathway?",
+      "options": [
+        "No support and no hints",
+        "Generalisation with a parameter only",
+        "An advanced proof unrelated to roots",
+        "Factorization reminder, one scaffolded step and a hint before the answer"
+      ],
+      "answer": 3,
+      "explanation": "Foundational learners receive deliberate temporary support.",
+      "reference": "Slide 7"
+    },
+    {
+      "id": "Q198",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "mcq",
+      "question": "What is characteristic of the proficient pathway?",
+      "options": [
+        "Do a different topic",
+        "Only listen to a presentation",
+        "Copy the teacher's solution",
+        "Solve independently, explain reasoning and verify both roots"
+      ],
+      "answer": 3,
+      "explanation": "Independent reasoning and checking are expected.",
+      "reference": "Slide 7"
+    },
+    {
+      "id": "Q199",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "mcq",
+      "question": "What is characteristic of the advanced pathway?",
+      "options": [
+        "Generalize with x²−(k+1)x+k=0",
+        "Repeat an identical problem",
+        "Only harder arithmetic",
+        "Skip the common objective"
+      ],
+      "answer": 0,
+      "explanation": "The extension introduces a parameter and structural reasoning.",
+      "reference": "Slide 7"
+    },
+    {
+      "id": "Q200",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "mcq",
+      "question": "What are the roots of x²−5x+6=0?",
+      "options": [
+        "−2 and −3",
+        "2 and 3",
+        "1 and 6",
+        "0 and 5"
+      ],
+      "answer": 1,
+      "explanation": "It factors as (x−2)(x−3).",
+      "reference": "Slide 8"
+    },
+    {
+      "id": "Q201",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "mcq",
+      "question": "What are the roots of x²−(k+1)x+k=0?",
+      "options": [
+        "k+1 and k",
+        "−1 and −k",
+        "0 and k",
+        "1 and k"
+      ],
+      "answer": 3,
+      "explanation": "It factors as (x−1)(x−k).",
+      "reference": "Slide 8"
+    },
+    {
+      "id": "Q202",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "mcq",
+      "question": "For which value of k do the advanced quadratic's roots coincide?",
+      "options": [
+        "All k",
+        "k=2",
+        "k=1",
+        "k=0"
+      ],
+      "answer": 2,
+      "explanation": "The roots are 1 and k, equal precisely when k=1.",
+      "reference": "Slide 8"
+    },
+    {
+      "id": "Q203",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "mcq",
+      "question": "What should a strong differentiation prompt include?",
+      "options": [
+        "Only a complete solution",
+        "Learner context, objective, outputs, hints and quality constraints",
+        "Only the phrase 'hard math'",
+        "Only a student name"
+      ],
+      "answer": 1,
+      "explanation": "The slide specifies role, objective, context, output and constraints.",
+      "reference": "Slide 9"
+    },
+    {
+      "id": "Q204",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "mcq",
+      "question": "Which hint policy is recommended?",
+      "options": [
+        "Avoid hints entirely",
+        "Provide unrelated details",
+        "Do not reveal the entire solution in the first hint",
+        "Reveal the full answer first"
+      ],
+      "answer": 2,
+      "explanation": "A scaffold should support thinking rather than replace it.",
+      "reference": "Slide 9"
+    },
+    {
+      "id": "Q205",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "mcq",
+      "question": "What should be provided for each AI-generated task version in the model prompt?",
+      "options": [
+        "Task, solution, hint, misconception and assessment criterion",
+        "Only difficulty label",
+        "Only a graph",
+        "Only the final numerical answer"
+      ],
+      "answer": 0,
+      "explanation": "The prompt requests these five components.",
+      "reference": "Slide 10"
+    },
+    {
+      "id": "Q206",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "mcq",
+      "question": "Which roles are assigned in the pair audit task?",
+      "options": [
+        "Painter and Programmer",
+        "Student and Principal",
+        "Only Test Supervisor and Grader",
+        "AI Task Designer and Critical Evaluator"
+      ],
+      "answer": 3,
+      "explanation": "Role separation supports critique.",
+      "reference": "Slide 11"
+    },
+    {
+      "id": "Q207",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "mcq",
+      "question": "Which of the following is assessed in the pair audit?",
+      "options": [
+        "Only the number of pages",
+        "Accuracy, alignment, cognitive demand, scaffolding and fairness",
+        "Only response speed",
+        "Only handwriting"
+      ],
+      "answer": 1,
+      "explanation": "Those five quality aspects are explicitly listed.",
+      "reference": "Slide 11"
+    },
+    {
+      "id": "Q208",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "mcq",
+      "question": "Which is NOT one of the critical quality-audit criteria?",
+      "options": [
+        "Privacy and integrity",
+        "Maximum worksheet length",
+        "Scaffolding",
+        "Inclusion and fairness"
+      ],
+      "answer": 1,
+      "explanation": "Length itself is not a named quality criterion.",
+      "reference": "Slide 12"
+    },
+    {
+      "id": "Q209",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "mcq",
+      "question": "Why should a differentiation plan avoid fixed ability labels?",
+      "options": [
+        "AI requires fixed groups",
+        "There is no difference in readiness",
+        "Labels may create barriers and lower expectations",
+        "Every student has identical interests"
+      ],
+      "answer": 2,
+      "explanation": "The inclusion criterion aims to preserve access and growth.",
+      "reference": "Slide 12"
+    },
+    {
+      "id": "Q210",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "mcq",
+      "question": "What should happen if a generated task fails a critical audit?",
+      "options": [
+        "Grade the student for it",
+        "Hide the error",
+        "Revise it or do not use it",
+        "Use it anyway"
+      ],
+      "answer": 2,
+      "explanation": "The lecture states this directly.",
+      "reference": "Slide 12"
+    },
+    {
+      "id": "Q211",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "mcq",
+      "question": "What is the best response to 'Does differentiation require separate lessons for every learner?'",
+      "options": [
+        "Not necessarily; responsive pathways can share a common learning goal",
+        "Use one permanent label per student",
+        "Never use group activities",
+        "Always, without exception"
+      ],
+      "answer": 0,
+      "explanation": "The discussion contrasts responsive support with extreme individualisation.",
+      "reference": "Slide 13"
+    },
+    {
+      "id": "Q212",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "mcq",
+      "question": "Why is changing only coefficients an insufficient test of differentiation?",
+      "options": [
+        "All coefficients must be equal",
+        "It may change arithmetic without changing support or cognitive work",
+        "It always raises difficulty",
+        "It always makes a new curriculum"
+      ],
+      "answer": 1,
+      "explanation": "Meaningful differentiation also depends on pathways, demand and support.",
+      "reference": "Slide 13"
+    },
+    {
+      "id": "Q213",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "mcq",
+      "question": "What is a concern about fixed ability grouping?",
+      "options": [
+        "It guarantees fairness",
+        "It removes all privacy risk",
+        "It can reduce expectations for some learners",
+        "It ensures the same cognitive demand"
+      ],
+      "answer": 2,
+      "explanation": "The lecture asks students to examine the potential for lowered expectations.",
+      "reference": "Slide 13"
+    },
+    {
+      "id": "Q214",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "mcq",
+      "question": "How can teachers test whether AI-supported differentiation improves learning?",
+      "options": [
+        "Collect formative evidence and compare progress toward shared objectives",
+        "Only count generated questions",
+        "Trust the AI's confidence",
+        "Do not assess learners"
+      ],
+      "answer": 0,
+      "explanation": "The lecture emphasizes evidence-based judgment over preference.",
+      "reference": "Slide 13"
+    },
+    {
+      "id": "Q215",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "mcq",
+      "question": "What is the lecture's take-home division of responsibility?",
+      "options": [
+        "AI generates options; teachers judge educational soundness",
+        "AI judges learners permanently",
+        "Differentiation means lower ambitions",
+        "Teachers accept all AI output"
+      ],
+      "answer": 0,
+      "explanation": "Teachers keep goals ambitious while adjusting pathways.",
+      "reference": "Slide 15"
+    },
+    {
+      "id": "Q216",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "What did Gurl, Markinson and Artzt primarily investigate?",
+      "options": [
+        "AI-generated music in primary school",
+        "Programming a graphing calculator",
+        "ChatGPT as a lesson-planning assistant to preservice secondary mathematics teachers",
+        "Robots assessing physical education"
+      ],
+      "answer": 2,
+      "explanation": "The qualitative study examined lesson planning and problem solving during microteaching.",
+      "reference": "Research: Gurl et al., abstract"
+    },
+    {
+      "id": "Q217",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "Which judgment were the preservice teachers generally better at making?",
+      "options": [
+        "Identifying all fabricated proofs",
+        "Judging AI pedagogical suggestions",
+        "Designing neural hardware",
+        "Validating every AI numerical solution"
+      ],
+      "answer": 1,
+      "explanation": "They often identified teacher-centered repetition but missed mathematical errors.",
+      "reference": "Research: Gurl et al., abstract"
+    },
+    {
+      "id": "Q218",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "In the reported mathematical-output analysis, how many preservice-teacher/ChatGPT cases were coded?",
+      "options": [
+        "12",
+        "44",
+        "19",
+        "7"
+      ],
+      "answer": 2,
+      "explanation": "The study discusses 19 coded mathematical cases.",
+      "reference": "Research: Gurl et al., results"
+    },
+    {
+      "id": "Q219",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "How many of those 19 ChatGPT mathematics responses were coded as correct?",
+      "options": [
+        "15",
+        "6",
+        "19",
+        "0"
+      ],
+      "answer": 1,
+      "explanation": "The article reports six correct ChatGPT mathematical responses among 19.",
+      "reference": "Research: Gurl et al., results"
+    },
+    {
+      "id": "Q220",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "Which mistaken interpretation of wrong AI mathematics was reported?",
+      "options": [
+        "Immediately proving every response",
+        "Treating incorrect solutions as merely a 'different approach'",
+        "Ignoring the lesson altogether",
+        "Always rejecting an accurate AI method"
+      ],
+      "answer": 1,
+      "explanation": "Some participants mistook incorrect work for a legitimate alternate method.",
+      "reference": "Research: Gurl et al., abstract"
+    },
+    {
+      "id": "Q221",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "How many Filipino preservice mathematics teachers participated in Calamlam's workshop study?",
+      "options": [
+        "7",
+        "23",
+        "44",
+        "19"
+      ],
+      "answer": 1,
+      "explanation": "The abstract reports 23 preservice mathematics teachers.",
+      "reference": "Research: Calamlam, abstract"
+    },
+    {
+      "id": "Q222",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "Which two broad AI functions emerged in lesson planning?",
+      "options": [
+        "Attendance tracking and discipline",
+        "Image compression and encryption",
+        "Content generation and support tool",
+        "Speech recognition and robotics"
+      ],
+      "answer": 2,
+      "explanation": "These were the two major categories identified by thematic analysis.",
+      "reference": "Research: Calamlam, abstract"
+    },
+    {
+      "id": "Q223",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "Which positive output was reported in the workshop?",
+      "options": [
+        "Curriculum-aligned objectives and organized lesson formats",
+        "Automatic knowledge of learner ability",
+        "Guaranteed flawless references",
+        "Perfectly realistic activities every time"
+      ],
+      "answer": 0,
+      "explanation": "The study noted objectives, student-centred tasks and format organization.",
+      "reference": "Research: Calamlam, abstract"
+    },
+    {
+      "id": "Q224",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "Which limitation was observed in generated lesson content?",
+      "options": [
+        "Every activity required specialist hardware",
+        "All participants rejected AI",
+        "AI could not output any text",
+        "Sometimes verbose, unrealistic or inaccurate outputs"
+      ],
+      "answer": 3,
+      "explanation": "These weaknesses motivated critical revision.",
+      "reference": "Research: Calamlam, abstract"
+    },
+    {
+      "id": "Q225",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "Which strategy helped participants address weaknesses in AI output?",
+      "options": [
+        "Avoiding all human inspection",
+        "Adding visual decoration only",
+        "Sharing personal student identifiers",
+        "Refined prompts and manual edits"
+      ],
+      "answer": 3,
+      "explanation": "Prompt refinement and editing were key responses.",
+      "reference": "Research: Calamlam, abstract"
+    },
+    {
+      "id": "Q226",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "How many Grade 7 mathematics teachers were studied in the personalized task research?",
+      "options": [
+        "5",
+        "23",
+        "44",
+        "7"
+      ],
+      "answer": 3,
+      "explanation": "Seven Grade 7 teachers worked on interest-based problem posing.",
+      "reference": "Research: Walkington et al., abstract"
+    },
+    {
+      "id": "Q227",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "What was the central source of task personalization?",
+      "options": [
+        "Teacher salary data",
+        "Students' private passwords",
+        "Only random larger coefficients",
+        "Students' out-of-school interests, such as sports and music"
+      ],
+      "answer": 3,
+      "explanation": "Interest-based contexts were central to the research design.",
+      "reference": "Research: Walkington et al., abstract"
+    },
+    {
+      "id": "Q228",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "What did teachers do after designing the personalized problems?",
+      "options": [
+        "Asked AI to grade class behavior",
+        "Accepted the first draft permanently",
+        "Gave them to students, collected feedback and revised the approach",
+        "Removed all student questions"
+      ],
+      "answer": 2,
+      "explanation": "The study examined an iterative classroom process.",
+      "reference": "Research: Walkington et al., abstract"
+    },
+    {
+      "id": "Q229",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "Which teacher-knowledge framework appears in the findings?",
+      "options": [
+        "AI-TPACK",
+        "Only Bloom's taxonomy",
+        "Only Euclidean geometry",
+        "Only test-retest reliability"
+      ],
+      "answer": 0,
+      "explanation": "Qualitative growth was described on AI-TPACK dimensions.",
+      "reference": "Research: Walkington et al., abstract"
+    },
+    {
+      "id": "Q230",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "What limitation is important when interpreting the study's quantitative pre/post results?",
+      "options": [
+        "Small sample and high baseline scores limited strong conclusions",
+        "No interviews were collected",
+        "All statistical measures improved dramatically",
+        "The study included thousands of teachers"
+      ],
+      "answer": 0,
+      "explanation": "The authors caution that the quantitative evidence did not show large effects.",
+      "reference": "Research: Walkington et al., discussion"
+    },
+    {
+      "id": "Q231",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "What weakness did teachers identify in generated personalized problems?",
+      "options": [
+        "All generated mathematics was irrelevant",
+        "Students cannot care about personal contexts",
+        "Problems may lack realism or authenticity",
+        "AI can only create music questions"
+      ],
+      "answer": 2,
+      "explanation": "Teachers questioned realism and authenticity despite engagement potential.",
+      "reference": "Research: Walkington et al., abstract"
+    },
+    {
+      "id": "Q232",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "Which central risk did Yen and Hsu identify in LLM mathematics feedback?",
+      "options": [
+        "Misinterpreting questions and students' reasoning",
+        "Only slow response time",
+        "Guaranteed accurate error classification",
+        "Perfect knowledge of every student"
+      ],
+      "answer": 0,
+      "explanation": "The article highlights reasoning, interpretation and correction failures.",
+      "reference": "Research: Yen and Hsu, abstract"
+    },
+    {
+      "id": "Q233",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "What does the article's first research question investigate?",
+      "options": [
+        "Only teacher attendance",
+        "Graphical animation speed",
+        "Only costs of school computers",
+        "How LLMs might assist students in learning mathematical problem-solving skills"
+      ],
+      "answer": 3,
+      "explanation": "RQ1 asks about the utility of LLMs for math learning.",
+      "reference": "Research: Yen and Hsu, RQ1"
+    },
+    {
+      "id": "Q234",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "What is the article's second research question?",
+      "options": [
+        "LLM problem-solving capability and explanation of calculations",
+        "Whether teachers need computers",
+        "How many AI companies exist",
+        "Whether all school exams should be online"
+      ],
+      "answer": 0,
+      "explanation": "RQ2 evaluates mathematical problem solving and rationale.",
+      "reference": "Research: Yen and Hsu, RQ2"
+    },
+    {
+      "id": "Q235",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "What is the article's third research question?",
+      "options": [
+        "Can exams be abolished?",
+        "Can all lessons become shorter?",
+        "Can LLMs identify student-answer errors and explain corrections?",
+        "Can graphs replace algebra entirely?"
+      ],
+      "answer": 2,
+      "explanation": "RQ3 targets adaptive error correction.",
+      "reference": "Research: Yen and Hsu, RQ3"
+    },
+    {
+      "id": "Q236",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "Which model and dataset were used in the article's reported experiments?",
+      "options": [
+        "A computer algebra solver only",
+        "GPT-3.5 and a modified MathQA set",
+        "A physical robot and WordNet only",
+        "A human tutor and GPS dataset"
+      ],
+      "answer": 1,
+      "explanation": "The methods describe a GPT-3.5 model on modified MathQA.",
+      "reference": "Research: Yen and Hsu, methodology"
+    },
+    {
+      "id": "Q237",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "Which prompting approaches were compared for math word problems?",
+      "options": [
+        "Zero-shot, few-shot and chain-of-thought",
+        "Only visual sliders",
+        "Only reinforcement learning and robotics",
+        "Only teacher interviews"
+      ],
+      "answer": 0,
+      "explanation": "The article compares these three prompt styles.",
+      "reference": "Research: Yen and Hsu, methodology"
+    },
+    {
+      "id": "Q238",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "How many complete cubes of side 3 can be placed in a 6 × 9 × 11 rectangular box using a regular grid?",
+      "options": [
+        "18",
+        "36",
+        "24",
+        "12"
+      ],
+      "answer": 0,
+      "explanation": "The counts are floor(6/3)=2, floor(9/3)=3 and floor(11/3)=3, giving 18 complete cubes.",
+      "reference": "Research: Yen and Hsu, Figure 3"
+    },
+    {
+      "id": "Q239",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "What is the unoccupied volume after placing those eighteen 3 × 3 × 3 cubes in the 6 × 9 × 11 box?",
+      "options": [
+        "81 cubic units",
+        "54 cubic units",
+        "594 cubic units",
+        "108 cubic units"
+      ],
+      "answer": 3,
+      "explanation": "The box is 594 cubic units; 18 cubes occupy 486, leaving 108.",
+      "reference": "Research: Yen and Hsu, Figure 3"
+    },
+    {
+      "id": "Q240",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "Two numbers are in ratio 1:2; adding 5 to each gives ratio 3:5. What is the ORIGINAL larger number?",
+      "options": [
+        "10",
+        "15",
+        "25",
+        "20"
+      ],
+      "answer": 3,
+      "explanation": "Let them be x and 2x; (x+5)/(2x+5)=3/5 gives x=10 and original larger number 20, not 25.",
+      "reference": "Research: Yen and Hsu, Figure 4"
+    },
+    {
+      "id": "Q241",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "In the jasmine-water example, 75 L initially contains 8% jasmine; then 3 L jasmine and 12 L water are added. What is the final percentage?",
+      "options": [
+        "12%",
+        "10%",
+        "9%",
+        "8%"
+      ],
+      "answer": 1,
+      "explanation": "Initial jasmine 6 L, then 9 L in 90 L total: 10%.",
+      "reference": "Research: Yen and Hsu, Figure 5"
+    },
+    {
+      "id": "Q242",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "If sheep:horses = 3:7 and 56 horses are identified from feed, how many sheep are there?",
+      "options": [
+        "72",
+        "24",
+        "56",
+        "168"
+      ],
+      "answer": 1,
+      "explanation": "Seven ratio parts equal 56 horses, so three parts equal 24 sheep.",
+      "reference": "Research: Yen and Hsu, Figure 6"
+    },
+    {
+      "id": "Q243",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "Simple interest at 5% for 8 years equals $480 less than the principal. What is the principal?",
+      "options": [
+        "$8,000",
+        "$480",
+        "$600",
+        "$800"
+      ],
+      "answer": 3,
+      "explanation": "0.05·8P=P−480 gives 0.6P=480 and P=800.",
+      "reference": "Research: Yen and Hsu, Figure 7"
+    },
+    {
+      "id": "Q244",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "Why is a fluent correction from an LLM not sufficient as pedagogical feedback?",
+      "options": [
+        "The student should never think",
+        "The model may misunderstand the learner's equations or misjudge correct work",
+        "Fluency guarantees arithmetic correctness",
+        "AI always identifies the exact misconception"
+      ],
+      "answer": 1,
+      "explanation": "The paper reports both miscorrection and misinterpretation of human reasoning.",
+      "reference": "Research: Yen and Hsu, conclusion"
+    },
+    {
+      "id": "Q245",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "Which mathematical content areas were studied by Zhang and colleagues?",
+      "options": [
+        "Only topology",
+        "Only calculus and linear algebra",
+        "Only geometry and statistics",
+        "Arithmetic, algebra and number theory"
+      ],
+      "answer": 3,
+      "explanation": "The experiments span these three task categories.",
+      "reference": "Research: Zhang et al., abstract"
+    },
+    {
+      "id": "Q246",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "Which models were evaluated in the Zhang study?",
+      "options": [
+        "Only calculators",
+        "Only GPT-3.5",
+        "Only image models",
+        "GPT-4o, o1, DeepSeek-V3 and DeepSeek-R1"
+      ],
+      "answer": 3,
+      "explanation": "The paper contrasts two OpenAI and two DeepSeek models.",
+      "reference": "Research: Zhang et al., abstract"
+    },
+    {
+      "id": "Q247",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "Which type of reasoning error was most frequent in that study?",
+      "options": [
+        "Procedural slips",
+        "Missing user account",
+        "Diagram coloring",
+        "Misunderstood philosophical ethics"
+      ],
+      "answer": 0,
+      "explanation": "The abstract identifies procedural slips as more frequent than conceptual errors.",
+      "reference": "Research: Zhang et al., abstract"
+    },
+    {
+      "id": "Q248",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "Which tested model showed particularly strong results across the tasks?",
+      "options": [
+        "A text editor",
+        "GPT-3.5 only",
+        "o1",
+        "All models failed identically"
+      ],
+      "answer": 2,
+      "explanation": "The study reports stronger or nearly perfect accuracy for o1.",
+      "reference": "Research: Zhang et al., abstract"
+    },
+    {
+      "id": "Q249",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "What did dual-agent configurations generally improve?",
+      "options": [
+        "Privacy automatically",
+        "The color of diagrams",
+        "Overall problem-solving performance",
+        "The number of classroom computers"
+      ],
+      "answer": 2,
+      "explanation": "Collaboration and cross-validation improved accuracy.",
+      "reference": "Research: Zhang et al., abstract"
+    },
+    {
+      "id": "Q250",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "What teaching use is suggested by a step-level error-coding rubric?",
+      "options": [
+        "Identify where procedural or conceptual reasoning breaks down",
+        "Replace all students' proofs",
+        "Ignore intermediate steps",
+        "Assess only final formatting"
+      ],
+      "answer": 0,
+      "explanation": "The rubric supports diagnostic evaluation of individual solution steps.",
+      "reference": "Research: Zhang et al., conclusion"
+    },
+    {
+      "id": "Q251",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "What two types of graph-theory problems were compared?",
+      "options": [
+        "Two elementary arithmetic sums",
+        "Only calculus limits",
+        "One solved and one open",
+        "Two robotics problems"
+      ],
+      "answer": 2,
+      "explanation": "The study contrasts known mathematical results with a genuinely unresolved question.",
+      "reference": "Research: Kulkarni et al., abstract"
+    },
+    {
+      "id": "Q252",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "How many stages were included in the evaluation protocol?",
+      "options": [
+        "12",
+        "5",
+        "8",
+        "3"
+      ],
+      "answer": 2,
+      "explanation": "The article describes an eight-stage mathematical inquiry protocol.",
+      "reference": "Research: Kulkarni et al., protocol"
+    },
+    {
+      "id": "Q253",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "Which question is described as open in the paper?",
+      "options": [
+        "Can a known counterexample be checked?",
+        "What is 2+2?",
+        "Is every graph a tree?",
+        "If the line graph L(G) is graceful, must G be graceful?"
+      ],
+      "answer": 3,
+      "explanation": "The converse gracefulness question remains open in the paper's framing.",
+      "reference": "Research: Kulkarni et al., problem definitions"
+    },
+    {
+      "id": "Q254",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "How was the model's proof on the solved graph problem assessed?",
+      "options": [
+        "Judged by number of paragraphs",
+        "Confirmed by a graph theory expert",
+        "Approved only by the model itself",
+        "Never checked"
+      ],
+      "answer": 1,
+      "explanation": "An expert validated the known-case proof.",
+      "reference": "Research: Kulkarni et al., results"
+    },
+    {
+      "id": "Q255",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "How did the model handle the open graph problem?",
+      "options": [
+        "Ignored the question entirely",
+        "Solved it with arithmetic only",
+        "Proposed plausible strategies but made no substantive progress and acknowledged uncertainty",
+        "Invented a verified new theorem"
+      ],
+      "answer": 2,
+      "explanation": "The study emphasizes useful exploration without novel resolution.",
+      "reference": "Research: Kulkarni et al., results"
+    },
+    {
+      "id": "Q256",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "mcq",
+      "question": "What broader educational boundary does the graph-theory paper stress?",
+      "options": [
+        "All formal proofs can be accepted from AI without reading",
+        "LLMs may assist known-material exploration but do not replace independent proof and verification",
+        "Only coding skill matters",
+        "Novel theorems always follow from a long prompt"
+      ],
+      "answer": 1,
+      "explanation": "Formal argumentation and independent checking remain essential.",
+      "reference": "Research: Kulkarni et al., conclusion"
+    },
+    {
+      "id": "E01",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "essay",
+      "question": "Define AI, generative AI, and LLMs, and explain why a fluent answer may still be wrong.",
+      "reference": "Slide 5",
+      "modelAnswer": "AI denotes systems performing tasks associated with human intelligence. Generative AI creates content, such as text, images, code, or explanations. An LLM generates likely language sequences from learned patterns; plausible wording is not a mathematical proof. Therefore teachers independently verify its mathematical claims.",
+      "rubric": [
+        "Accurate AI definition",
+        "Accurate generative-AI definition",
+        "Accurate LLM description",
+        "Difference between fluency and validity",
+        "Independent verification stated"
+      ]
+    },
+    {
+      "id": "E02",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "essay",
+      "question": "Interpret the TALIS 2024 data presented in the lecture and explain its teaching implication.",
+      "reference": "Slide 3–4",
+      "modelAnswer": "The slides compare 59% teacher AI use in Kazakhstan with an OECD average of 36%. Across the stated OECD purpose categories, 68% use it to learn/summarise, 64% to plan, 26% to assess/grade and 25% to review performance/participation. Lesson preparation dominates higher-stakes evaluative use; the key educational question is whether learning improves.",
+      "rubric": [
+        "Kazakhstan value",
+        "OECD value",
+        "All four use percentages",
+        "Interpret preparation versus assessment",
+        "Learning-impact conclusion"
+      ]
+    },
+    {
+      "id": "E03",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "essay",
+      "question": "Explain how one equation, 2x + 5 = 17, can support at least four different AI-assisted teaching tasks.",
+      "reference": "Slide 6–7",
+      "modelAnswer": "After independently checking x=6, a teacher can request a Grade 7–8 step-by-step explanation, three differentiated related exercises, two likely misconceptions with feedback, and a GeoGebra representation showing equality. Each output should be checked for answer, method, assumptions, notation and difficulty.",
+      "rubric": [
+        "Correct solution",
+        "Age-appropriate explanation",
+        "Differentiated examples",
+        "Misconceptions and feedback",
+        "Visual plus verification"
+      ]
+    },
+    {
+      "id": "E04",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "essay",
+      "question": "Describe and apply the five-item verification chain for AI-generated mathematics.",
+      "reference": "Slide 8",
+      "modelAnswer": "Begin by checking the final answer, then the method, implicit assumptions, notation and grade- level difficulty. For example, a correct quadratic result might be reached through unexplained advanced techniques inappropriate for Grade 8. The teacher should independently solve and adapt before classroom use.",
+      "rubric": [
+        "Answer check",
+        "Method check",
+        "Assumptions check",
+        "Notation check",
+        "Difficulty and classroom judgment"
+      ]
+    },
+    {
+      "id": "E05",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "essay",
+      "question": "Design an AI-plus-multimedia workflow for one mathematics concept.",
+      "reference": "Slide 9",
+      "modelAnswer": "For a quadratic function, AI drafts a storyboard explaining changes in the parabola. GeoGebra makes parameter changes interactive. PowerPoint or Canva creates a clear visual sequence. An assessment platform collects a short formative quiz. Every step serves the objective of understanding transformations, not decoration.",
+      "rubric": [
+        "Clear mathematics objective",
+        "AI draft",
+        "Interactive mathematical tool",
+        "Presentation/visual resource",
+        "Formative assessment and accuracy check"
+      ]
+    },
+    {
+      "id": "E06",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "essay",
+      "question": "Create and justify a rubric for comparing two AI tools for mathematics teaching.",
+      "reference": "Slide 10",
+      "modelAnswer": "Score accuracy, pedagogical value, flexibility, usability, privacy and safety, and accessibility against the same target classroom task. Accuracy checks equations and methods; pedagogy measures goal fit; flexibility checks adaptiveness; usability checks practicality; privacy checks required data; accessibility checks diverse learners. Compare the evidence before selection.",
+      "rubric": [
+        "Accuracy and pedagogy",
+        "Flexibility",
+        "Usability",
+        "Privacy/safety",
+        "Accessibility and justified selection"
+      ]
+    },
+    {
+      "id": "E07",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "essay",
+      "question": "Explain how to handle an AI explanation of why a negative times a negative is positive that is formally correct but too abstract for young learners.",
+      "reference": "Slide 11–12",
+      "modelAnswer": "Review correctness and the students' readiness, then use a numerical pattern such as (-2)×3=-6, (-2)×2=-4, (-2)×1=-2, (-2)×0=0, (-2)×(-1)=2 to show the product increases by two when the second factor decreases by one. Ask students to describe the pattern and generalize. Keep the mathematics correct and the representation suitable.",
+      "rubric": [
+        "Recognize pedagogical mismatch",
+        "Check formal accuracy",
+        "Offer valid accessible representation",
+        "Invite student reasoning",
+        "Verify general conclusion"
+      ]
+    },
+    {
+      "id": "E08",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "essay",
+      "question": "Summarize the lecture's responsible AI rules and the UNESCO teacher-competency framework.",
+      "reference": "Slide 12",
+      "modelAnswer": "Do not send sensitive student data to public AI tools; disclose use when policy requires it; review bias, accuracy and accessibility; protect student thinking and teacher accountability. The slides name 15 competencies across five dimensions: human-centred mindset, ethics, foundations/applications, pedagogy and professional learning. Progression is Acquire → Deepen → Create.",
+      "rubric": [
+        "Student privacy",
+        "Disclosure and oversight",
+        "All five dimensions",
+        "15 competencies",
+        "Progression sequence"
+      ]
+    },
+    {
+      "id": "E09",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "essay",
+      "question": "Write a strong six-part prompt for five Grade 8 linear-equation tasks, and label each component.",
+      "reference": "Slide 15–17",
+      "modelAnswer": "Role: Act as a Grade 8 mathematics teacher. Task: Create five linear-equation exercises. Context: 45-minute class; students know basic algebra. Constraints: two easy, two medium, one challenging; no calculators. Format: table of problem, answer and difficulty. Verification: check every solution algebraically and flag ambiguous items. The teacher still verifies the output independently.",
+      "rubric": [
+        "Role",
+        "Task and context",
+        "Constraints",
+        "Format",
+        "Verification and independent teacher check"
+      ]
+    },
+    {
+      "id": "E10",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "essay",
+      "question": "Critique a weak prompt about fractions and revise it using the lecture's prompting principles.",
+      "reference": "Slide 15–16",
+      "modelAnswer": "'Create a math problem about fractions' gives little guidance. Replace it with: 'Create three Grade 7 addition-of-unlike-fractions problems: two easy and one medium; include one real-life situation, avoid decimals, present questions first and correct solutions separately, and check all arithmetic.' Inspect and refine the result.",
+      "rubric": [
+        "Identify missing information",
+        "Specify learner and topic",
+        "Quantity/difficulty constraints",
+        "Format/context",
+        "Verification and iteration"
+      ]
+    },
+    {
+      "id": "E11",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "essay",
+      "question": "Compare prompting for explanation with prompting for differentiation.",
+      "reference": "Slide 18",
+      "modelAnswer": "An explanation prompt specifies learner, objective, structure (intuition, example, worked solution, quick check) and misconception. A differentiation prompt holds the learning objective constant while adjusting scaffolds, representations, numbers, language or extension. Both require verification that the content is mathematically sound and fits the learners.",
+      "rubric": [
+        "Explain audience and objective",
+        "Explanation structure",
+        "Misconception request",
+        "Shared differentiation goal",
+        "Adjusted supports and verification"
+      ]
+    },
+    {
+      "id": "E12",
+      "topic": 1,
+      "source": "AI Multimedia Education Weeks1-2.pptx",
+      "type": "essay",
+      "question": "Describe the five stages of prompt chaining and identify common prompt-design mistakes.",
+      "reference": "Slide 19",
+      "modelAnswer": "A useful chain generates examples, selects strong ones, converts them into tasks, drafts answers and misconceptions, then checks accuracy and alignment. Mistakes include vagueness, missing learner, absent constraints, asking for an entire course at once, no verification and requesting only answers instead of learning experiences.",
+      "rubric": [
+        "Generation and selection",
+        "Task transformation",
+        "Answers/misconceptions",
+        "Final checks",
+        "At least three mistakes explained"
+      ]
+    },
+    {
+      "id": "E13",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "essay",
+      "question": "Define lesson planning and illustrate constructive alignment using the quadratic-formula example.",
+      "reference": "Slide 3",
+      "modelAnswer": "Planning connects objectives, activities, resources and assessment. An objective is that students solve quadratics using the quadratic formula and explain their reasoning. An aligned assessment is 2x² −5x −3=0 with each step explained. The activity should develop the same competencies measured at the end.",
+      "rubric": [
+        "Definition",
+        "Four lesson elements",
+        "Specific objective",
+        "Aligned example",
+        "Explain why alignment matters"
+      ]
+    },
+    {
+      "id": "E14",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "essay",
+      "question": "Describe the seven steps of the AI lesson-planning workflow and explain the teacher's role.",
+      "reference": "Slide 5–7",
+      "modelAnswer": "Define classroom context, write a targeted prompt, generate the draft, check accuracy, adapt to students, add teacher-designed ideas, and finalize. The teacher knows learners, prior knowledge, curriculum and time, so the draft must go through evaluation and revision before classroom use.",
+      "rubric": [
+        "Seven stages in order",
+        "Teacher's classroom knowledge",
+        "Independent math verification",
+        "Student adaptation",
+        "No direct prompt-to-classroom shortcut"
+      ]
+    },
+    {
+      "id": "E15",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "essay",
+      "question": "Rewrite a vague Pythagorean-theorem prompt as a strong classroom planning request.",
+      "reference": "Slide 8",
+      "modelAnswer": "Example: 'Design a 50-minute Grade 8 lesson on applying the Pythagorean theorem to real-life right triangles. Students know squares and roots but confuse the hypotenuse. Include a warm-up, one visual discovery, three practice levels, group discussion and a three-item exit ticket. Check the geometry and timing.' This specifies prerequisites, objective, activities, differentiation and evaluation.",
+      "rubric": [
+        "Audience and time",
+        "Prerequisites",
+        "Objective",
+        "Activities and differentiation",
+        "Assessment and checks"
+      ]
+    },
+    {
+      "id": "E16",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "essay",
+      "question": "Explain every letter in COARE and apply it to a derivative lesson.",
+      "reference": "Slide 9",
+      "modelAnswer": "Context: Grade 10 learners. Objective: understand the geometric meaning of derivative. Activity: graph-based exploration of secant approaching tangent. Restrictions: 50 minutes and no advanced calculus. Evaluation: three-question exit ticket requiring prediction and slope interpretation. COARE helps align the prompt with the teaching situation.",
+      "rubric": [
+        "Context",
+        "Objective",
+        "Activity",
+        "Restrictions",
+        "Evaluation"
+      ]
+    },
+    {
+      "id": "E17",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "essay",
+      "question": "Design a complete outline for an AI-supported lesson on quadratic equations including assessment and reflection.",
+      "reference": "Slide 6–7",
+      "modelAnswer": "Specify a measurable solving-and-justifying objective, diagnostic warm-up, explanation or discovery, worked example, collaborative and independent practice with different supports, a formative checkpoint, an exit ticket and reflection. AI can draft candidates, but the teacher independently verifies solutions, estimates timing and adapts activities to real students.",
+      "rubric": [
+        "Learning objective",
+        "Coherent activity sequence",
+        "Differentiation",
+        "Assessment/feedback",
+        "Teacher verification"
+      ]
+    },
+    {
+      "id": "E18",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "essay",
+      "question": "Explain why the lecture's three quadratic tasks represent different demands, and solve the advanced parameter condition.",
+      "reference": "Slide 10",
+      "modelAnswer": "x²−9=0 is accessible factoring; 2x²−5x−3=0 requires more algebra; the advanced task asks when x²+(k−2)x+k=0 has distinct real roots. Its discriminant is k²−8k+4. Requiring >0 gives k<4 −2 √3 or k>4+2 √3. Increased complexity here comes from parameter reasoning, not simply large numbers.",
+      "rubric": [
+        "Describe level 1",
+        "Describe level 2",
+        "Set discriminant",
+        "Solve inequality",
+        "Distinguish reasoning from arithmetic"
+      ]
+    },
+    {
+      "id": "E19",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "essay",
+      "question": "Convert a teacher-centred Pythagorean-theorem lesson into a student-centred discovery activity.",
+      "reference": "Slide 11",
+      "modelAnswer": "Students construct or examine right triangles and squares on their sides, predict the area relationship, compare results in pairs, articulate a²+b²=c² and test it on new triangles. The teacher guides discussion and collects an exit ticket. The goal is Explore → Discuss → Solve → Explain, not passive listening.",
+      "rubric": [
+        "Investigative launch",
+        "Student exploration",
+        "Peer discourse",
+        "Mathematical connection",
+        "Check understanding"
+      ]
+    },
+    {
+      "id": "E20",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "essay",
+      "question": "Critique an AI lesson consisting of 25 minutes explanation, 10 minutes watching and 15 minutes worksheet.",
+      "reference": "Slide 12–14",
+      "modelAnswer": "Although timed and coherent, it is overly teacher-centred and may lack exploration, interaction, feedback, differentiation, reasoning and formative assessment. Replace some exposition with think-pair-share or a discovery task, add targeted feedback, multiple pathways and an exit ticket. Verify mathematical examples and actual timing.",
+      "rubric": [
+        "Identify limitations",
+        "Student-centred redesign",
+        "Differentiation",
+        "Formative assessment",
+        "Mathematical and time validation"
+      ]
+    },
+    {
+      "id": "E21",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "essay",
+      "question": "Create a teacher checklist for deciding whether an AI-generated lesson can enter the classroom.",
+      "reference": "Slide 13–15",
+      "modelAnswer": "Check each mathematical result, formula, diagram, notation and method independently; judge prior knowledge, expected difficulty, timing and inclusion; confirm alignment of activities and assessment with the objective; look for real student thinking; then document changes as teacher. Beware fabricated references and repetitive activities.",
+      "rubric": [
+        "Mathematics checks",
+        "Learner appropriateness",
+        "Objective alignment",
+        "Engagement and assessment",
+        "Teacher revision and research caution"
+      ]
+    },
+    {
+      "id": "E22",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "essay",
+      "question": "Explain the Think–Pair–Discuss–Explain–Reflect sequence and why it improves 'solve 10 equations individually.'",
+      "reference": "Slide 16",
+      "modelAnswer": "First solve one equation independently; compare approaches with a partner; publicly discuss two strategies; explain which is more efficient; reflect on a likely misconception. The revision gives students agency and mathematical argument instead of simply increasing exercise quantity.",
+      "rubric": [
+        "Think",
+        "Pair",
+        "Discuss",
+        "Explain",
+        "Reflect with pedagogical rationale"
+      ]
+    },
+    {
+      "id": "E23",
+      "topic": 2,
+      "source": "AI for Lesson Planning.pptx",
+      "type": "essay",
+      "question": "Summarize the lecture's research evidence and divide responsibilities between AI and the teacher.",
+      "reference": "Slide 17–18",
+      "modelAnswer": "The lecture reports that preservice teachers often notice weak, repetitive pedagogy but sometimes treat incorrect AI math as a different approach; other studies stress adapting plans via TPACK and AI literacy. AI can propose examples, activities, quizzes and formats, but the teacher checks mathematics, selects for real learners, determines cognitive level and makes final decisions.",
+      "rubric": [
+        "Gurl study finding",
+        "Other cited research/TPACK",
+        "AI roles",
+        "Teacher responsibilities",
+        "Reflective evaluation"
+      ]
+    },
+    {
+      "id": "E24",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "essay",
+      "question": "Explain the difference between mathematical validity and pedagogical quality in AI-generated problems.",
+      "reference": "Slide 2–6",
+      "modelAnswer": "A task such as x²−5x+6=0 has correct roots, but may only test routine factoring. A high-quality task also matches the learning objective, has sufficient information, an authentic context and deliberate cognitive demand. A teacher should check all five dimensions: correctness, solvability, demand, authenticity and alignment.",
+      "rubric": [
+        "Correctness versus quality",
+        "Example",
+        "Solvability",
+        "Demand/authenticity",
+        "Objective alignment"
+      ]
+    },
+    {
+      "id": "E25",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "essay",
+      "question": "Write a prompt that turns a routine Grade 10 quadratic into a problem requiring interpretation and justification.",
+      "reference": "Slide 5",
+      "modelAnswer": "For example: 'Act as a Grade 10 mathematics teacher. Design a quadratic-model task with a realistic situation and enough information to form an equation. Learners must interpret roots in context, reject invalid solutions and justify their choice. Provide the answer and a separate teacher verification, and keep calculations age-appropriate.'",
+      "rubric": [
+        "Topic and level",
+        "Objective",
+        "Cognitive demand",
+        "Realistic constraints",
+        "Verification"
+      ]
+    },
+    {
+      "id": "E26",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "essay",
+      "question": "Diagnose and correct the AI rectangle error for a 40 cm perimeter and length four centimetres more than width.",
+      "reference": "Slide 7",
+      "modelAnswer": "The AI incorrectly changes 2(L+W)=40 into L+W=40. It should divide both sides by two, giving L+W=20. Set L=W+4: 2W+4=20, so W=8 cm and L=12 cm. The area is 96 cm². The key is to audit each algebraic transformation.",
+      "rubric": [
+        "Locate invalid division",
+        "Correct perimeter equation",
+        "Solve width",
+        "Solve length",
+        "Area and verification"
+      ]
+    },
+    {
+      "id": "E27",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "essay",
+      "question": "Describe the six-step human-in-the-loop workflow for AI problem design.",
+      "reference": "Slide 8",
+      "modelAnswer": "Define the learning objective, generate an AI draft, solve it without AI, audit mathematical and pedagogical quality, adapt weak features and approve only the revised problem. This prevents persuasive but wrong calculations and supports learning-goal alignment.",
+      "rubric": [
+        "Define",
+        "Generate",
+        "Independent solve",
+        "Audit",
+        "Adapt and approve"
+      ]
+    },
+    {
+      "id": "E28",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "essay",
+      "question": "Show three ways to increase cognitive demand without simply increasing numbers.",
+      "reference": "Slide 9–10",
+      "modelAnswer": "Move from solving a linear equation to interpreting it in context; ask if a solution is unique and require a justification; or add real constraints, incomplete information or multiple valid cases. These demand modelling, reasoning and proof rather than longer arithmetic.",
+      "rubric": [
+        "Interpretation",
+        "Uniqueness justification",
+        "Conditions/information",
+        "Multiple solutions or modelling",
+        "Explain change in demand"
+      ]
+    },
+    {
+      "id": "E29",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "essay",
+      "question": "Name six levers for adapting a problem and give one example for each.",
+      "reference": "Slide 10",
+      "modelAnswer": "Conditions: add an inequality. Representation: change a word problem to a graph. Solutions: allow more than one valid answer. Justification: require proof. Information: introduce a missing or irrelevant datum for discussion. Abstraction: generalize a routine numeric example to a model. All are evaluated against the objective.",
+      "rubric": [
+        "Conditions and representation",
+        "Solutions",
+        "Justification",
+        "Information",
+        "Abstraction and alignment"
+      ]
+    },
+    {
+      "id": "E30",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "essay",
+      "question": "Solve the adapted 44 m fencing problem when integer rectangular dimensions must give area at least 120 m².",
+      "reference": "Slide 11–14",
+      "modelAnswer": "2(L+W)=44 gives L+W=22. With positive integers W and L, area W(22 −W) ≥120, so W²−22W+120≤0 or (W−10)(W−12)≤0. Thus W is 10, 11 or 12, corresponding to unordered dimension pairs (10,12) and (11,11). The problem must state whether rotation counts separately and whether a square is allowed.",
+      "rubric": [
+        "Perimeter relation",
+        "Area inequality",
+        "Factorization",
+        "Integer pairs",
+        "Assumption discussion"
+      ]
+    },
+    {
+      "id": "E31",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "essay",
+      "question": "Contrast the original garden problem with the redesigned one in terms of learning outcomes.",
+      "reference": "Slide 11",
+      "modelAnswer": "Original: 120 m² area and L=W+4 give one main algebraic solution path. Redesign: fixed 44 m fence, minimum area and integer sides ask students to model a constrained system, find all feasible pairs and justify completeness. This raises reasoning demand through conditions and possible solutions.",
+      "rubric": [
+        "Original setup",
+        "Redesigned constraints",
+        "Modelling",
+        "Multiple-case reasoning",
+        "Justification of increased demand"
+      ]
+    },
+    {
+      "id": "E32",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "essay",
+      "question": "Explain how to use AI as a problem-posing partner rather than an automatic worksheet generator.",
+      "reference": "Slide 12–13",
+      "modelAnswer": "Give AI an existing task and request three meaningful ways to increase cognitive demand, plus critiques of each proposal. Select candidates, solve independently, check authenticity and objective alignment, ask a peer to attempt them and revise. This echoes the lecture's research connection: generate, evaluate, revise.",
+      "rubric": [
+        "Focused AI prompt",
+        "Multiple alternatives",
+        "Self-critique",
+        "Teacher/peer verification",
+        "Iterative revision"
+      ]
+    },
+    {
+      "id": "E33",
+      "topic": 3,
+      "source": "Week 4-AI for Mathematics Problems.pptx",
+      "type": "essay",
+      "question": "Design a short protocol for the 'AI Problem Designer & Critic' pair activity.",
+      "reference": "Slide 16",
+      "modelAnswer": "Each student chooses a topic and objective, asks AI for one draft, solves alone, audits mathematics and pedagogy, exchanges with a partner to solve, and redesigns with justification. Deliver a final problem whose answer, constraints, level and intended learning outcome can be defended.",
+      "rubric": [
+        "Topic and goal",
+        "AI draft",
+        "Independent solve",
+        "Peer audit",
+        "Redesign and defense"
+      ]
+    },
+    {
+      "id": "E34",
+      "topic": 4,
+      "source": "AI for Mathematical Explanations.pptx",
+      "type": "essay",
+      "question": "Distinguish procedural, conceptual, visual and metacognitive explanations using factoring.",
+      "reference": "Slide 2–4",
+      "modelAnswer": "Procedural: factor x²−5x+6 into (x−2)(x−3) and set factors to zero. Conceptual: explain why the product-zero principle gives roots and why the coefficients match. Visual: show graph intersections at x=2 and x=3. Metacognitive: suggest checking factor pairs and substituting answers to monitor accuracy.",
+      "rubric": [
+        "Procedural",
+        "Conceptual",
+        "Visual",
+        "Metacognitive",
+        "Correct factoring and roots"
+      ]
+    },
+    {
+      "id": "E35",
+      "topic": 4,
+      "source": "AI for Mathematical Explanations.pptx",
+      "type": "essay",
+      "question": "Explain what, why, how and meaning contribute to a complete mathematical explanation.",
+      "reference": "Slide 3",
+      "modelAnswer": "What names the mathematical action or structure, why justifies it, how shows the process, and meaning interprets the result in context. A complete explanation connects the ideas rather than merely listing an answer.",
+      "rubric": [
+        "What",
+        "Why",
+        "How",
+        "Meaning",
+        "Connection to understanding"
+      ]
+    },
+    {
+      "id": "E36",
+      "topic": 4,
+      "source": "AI for Mathematical Explanations.pptx",
+      "type": "essay",
+      "question": "Explain the derivative at three different learner levels following the lecture.",
+      "reference": "Slide 6",
+      "modelAnswer": "For younger learners, a derivative is how fast a quantity changes. In high school it is the slope of a curve at a point. At university it is f′(x)=lim(h→0)[f(x+h)−f(x)]/h when the limit exists. These levels refer to the same idea using progressively more formal representations.",
+      "rubric": [
+        "Younger level",
+        "High-school level",
+        "University expression",
+        "Common conceptual link",
+        "Appropriate language choice"
+      ]
+    },
+    {
+      "id": "E37",
+      "topic": 4,
+      "source": "AI for Mathematical Explanations.pptx",
+      "type": "essay",
+      "question": "Explain CLEAR and construct a suitable prompt for first-year mathematics pedagogy students learning derivatives.",
+      "reference": "Slide 7–8",
+      "modelAnswer": "Context: first-year mathematics pedagogy. Learning objective: understand rate of change and tangent slope. Explanation: intuitive description before formal definition and worked example. Accuracy: check the formula and reasoning. Representation: request a secant-to-tangent visual and one misconception. Such a prompt makes the output teachable but still requires checking.",
+      "rubric": [
+        "C",
+        "L",
+        "E",
+        "A",
+        "R with coherent prompt"
+      ]
+    },
+    {
+      "id": "E38",
+      "topic": 4,
+      "source": "AI for Mathematical Explanations.pptx",
+      "type": "essay",
+      "question": "Correct the flawed AI definition of continuity and show a counterexample.",
+      "reference": "Slide 9",
+      "modelAnswer": "Continuity at a requires f(a) to be defined, lim(x→a)f(x) to exist and equality of the two. For example, define f(x)=0 for x≠0 and f(0)=1; f(0) and lim(x→0)f(x)=0 exist, but they differ, so f is not continuous at 0. The AI missed the equality.",
+      "rubric": [
+        "State incorrect omission",
+        "All continuity conditions",
+        "Valid counterexample",
+        "Evaluate limit and value",
+        "Conclusion"
+      ]
+    },
+    {
+      "id": "E39",
+      "topic": 4,
+      "source": "AI for Mathematical Explanations.pptx",
+      "type": "essay",
+      "question": "Explain the five dimensions of an AI mathematical-explanation audit.",
+      "reference": "Slide 10",
+      "modelAnswer": "Mathematical correctness checks statements and computations. Logical coherence asks whether conclusions follow. Completeness checks necessary assumptions and steps. Level asks whether the method fits the learner. Pedagogical value asks whether reasoning and understanding are actually supported.",
+      "rubric": [
+        "Correctness",
+        "Coherence",
+        "Completeness",
+        "Learner level",
+        "Pedagogical value"
+      ]
+    },
+    {
+      "id": "E40",
+      "topic": 4,
+      "source": "AI for Mathematical Explanations.pptx",
+      "type": "essay",
+      "question": "Give a visual or geometric explanation of 1+3+...+(2n−1)=n² for high-school students.",
+      "reference": "Slide 11",
+      "modelAnswer": "Start with a 1×1 square. Add the next odd number of unit tiles as an L-shaped border to make a 2×2 square, then five tiles to make 3×3, and so on. Growing the square from side n −1 to n adds n² −(n −1)²=2n −1 tiles. Therefore the sum of the first n odd numbers is n². Ask students to predict the next border.",
+      "rubric": [
+        "Square model",
+        "Odd-number border",
+        "Correct algebraic difference",
+        "General conclusion",
+        "Reasoning question"
+      ]
+    },
+    {
+      "id": "E41",
+      "topic": 4,
+      "source": "AI for Mathematical Explanations.pptx",
+      "type": "essay",
+      "question": "Explain which explanatory tasks AI may draft and which tasks remain the mathematics teacher's responsibility.",
+      "reference": "Slide 12",
+      "modelAnswer": "AI may suggest analogies, alternate explanations, examples, exercises, simpler language and misconceptions. The teacher defines the goal, checks correctness, recognizes real student difficulties, chooses explanations and provides context and appropriate assessment. AI drafts cannot replace classroom insight.",
+      "rubric": [
+        "AI examples/alternatives",
+        "AI misconceptions/adaptation",
+        "Teacher objectives",
+        "Teacher mathematical checks",
+        "Student-context and pedagogy"
+      ]
+    },
+    {
+      "id": "E42",
+      "topic": 4,
+      "source": "AI for Mathematical Explanations.pptx",
+      "type": "essay",
+      "question": "Apply Generate → Check → Critique → Improve to an AI answer about a math concept.",
+      "reference": "Slide 13",
+      "modelAnswer": "Ask for an explanation, independently verify calculations and logic, critique clarity and completeness for the target learners, and revise the draft by adding a visual, misconception or justification. A second check confirms the revised explanation still supports the learning objective.",
+      "rubric": [
+        "Generate",
+        "Check mathematics",
+        "Critique pedagogy",
+        "Improve representation or reasoning",
+        "Recheck alignment"
+      ]
+    },
+    {
+      "id": "E43",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "essay",
+      "question": "Define mathematical visualization and explain its links among symbolic, visual and verbal representations.",
+      "reference": "Slide 3–4",
+      "modelAnswer": "Visualization uses diagrams, graphs, animation or models to expose patterns, structure and changes. A parabola graph (visual), y=a(x−h)²+k (symbolic) and statements about shifts (verbal) describe the same object. Connecting them helps students predict and explain changes instead of merely looking at a picture.",
+      "rubric": [
+        "Definition",
+        "Symbolic representation",
+        "Visual representation",
+        "Verbal representation",
+        "Reasoning benefit"
+      ]
+    },
+    {
+      "id": "E44",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "essay",
+      "question": "Compare static and interactive visualization and give a suitable classroom use for each.",
+      "reference": "Slide 5",
+      "modelAnswer": "A static diagram offers controlled, clear representation but little direct manipulation. Interactive sliders enable learners to test what-if predictions but can distract. A static labelled parabola is good for introducing axes; a one-slider parabola app is good for investigating parameter effects. Neither is universally superior.",
+      "rubric": [
+        "Static strength",
+        "Static limitation",
+        "Interactive strength",
+        "Interactive limitation",
+        "Purposeful uses"
+      ]
+    },
+    {
+      "id": "E45",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "essay",
+      "question": "Explain four principles of effective visualization and four common pitfalls.",
+      "reference": "Slide 6–7",
+      "modelAnswer": "Principles: mathematical accuracy, cognitive focus, a form suited to the relation, and purposeful interaction. Pitfalls: decoration over meaning, too many controls, giving away the conclusion, and unchecked graphs/labels/code. The designer removes distractions and has students predict and justify.",
+      "rubric": [
+        "Accuracy principle",
+        "Cognitive focus",
+        "Representation choice",
+        "Purposeful interaction",
+        "All four pitfalls identified"
+      ]
+    },
+    {
+      "id": "E46",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "essay",
+      "question": "Design a new mathematical visualization following the lecture's correct decision order.",
+      "reference": "Slide 8",
+      "modelAnswer": "First specify what students should notice, such as the connection between unit-circle angle and coordinates. Next choose a circle with a movable radius and x/y projections. Finally implement it in GeoGebra or Desmos. Students predict signs and coordinates, manipulate the point and explain their observations. Tool choice is last.",
+      "rubric": [
+        "Learning goal first",
+        "Appropriate representation",
+        "Technology last",
+        "Student interaction",
+        "Reasoning and accuracy check"
+      ]
+    },
+    {
+      "id": "E47",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "essay",
+      "question": "Explain the effects of a, h and k in y=a(x−h)²+k and propose student predictions.",
+      "reference": "Slide 9–10",
+      "modelAnswer": "For a≠0, |a| changes steepness and a<0 reflects the parabola; h shifts the graph horizontally, and k moves it vertically. The vertex is (h,k). Ask learners to predict the new vertex and orientation before moving one slider at a time and to explain which properties remain unchanged.",
+      "rubric": [
+        "a stretch",
+        "Reflection sign",
+        "h shift",
+        "k shift and vertex",
+        "Prediction and explanation"
+      ]
+    },
+    {
+      "id": "E48",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "essay",
+      "question": "How would you test an AI-generated interactive graph before showing it to students?",
+      "reference": "Slide 10",
+      "modelAnswer": "Compute key algebraic values independently, verify vertices/intercepts and sign behavior, inspect axes and labels, test each slider at known settings, check that the interaction supports the goal and ask a learner to interpret it. Fix mismatches before using the resource.",
+      "rubric": [
+        "Independent numeric check",
+        "Graph correspondence",
+        "Labels and scales",
+        "Slider testing",
+        "Pedagogical relevance"
+      ]
+    },
+    {
+      "id": "E49",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "essay",
+      "question": "Explain how a moving secant line can introduce a tangent slope and the derivative formula.",
+      "reference": "Slide 11",
+      "modelAnswer": "Choose x and x+h on f, draw their secant, and observe the quotient [f(x+h) −f(x)]/h. Move the second point closer so h approaches zero. When the limit exists, the secant slopes approach f′(x), the tangent slope. Visualization motivates but does not replace the limit definition.",
+      "rubric": [
+        "Two points/secant",
+        "Difference quotient",
+        "Limit process",
+        "Tangent connection",
+        "Formal-definition caveat"
+      ]
+    },
+    {
+      "id": "E50",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "essay",
+      "question": "Verify the lecture's derivative visualization for f(x)=x²/2 at x=1.",
+      "reference": "Slide 11",
+      "modelAnswer": "f(1)=1/2 and [f(1+h)−f(1)]/h=[((1+h)²−1)/2]/h=1+h/2. As h →0 the slope approaches 1. Values h=2 and h=1 give secant slopes 2 and 1.5, consistent with the diagram's discussion.",
+      "rubric": [
+        "Correct function value",
+        "Secant calculation",
+        "Simplification",
+        "Limit 1",
+        "Connect numerical slopes to visual"
+      ]
+    },
+    {
+      "id": "E51",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "essay",
+      "question": "Propose an individual visualization resource meeting all independent-task requirements.",
+      "reference": "Slide 12–14",
+      "modelAnswer": "Choose one topic and measurable objective, create an accurate diagram or interactive interface, specify interaction/visual focus, and ask two to three guiding reasoning questions. Include a 150–200 word explanation of how the resource supports learning. Check every graph, label, calculation and potential distraction.",
+      "rubric": [
+        "Topic and objective",
+        "Representation",
+        "Interaction/focus",
+        "2–3 reasoning questions",
+        "Written rationale and verification"
+      ]
+    },
+    {
+      "id": "E52",
+      "topic": 5,
+      "source": "Mathematical Visualization.pptx",
+      "type": "essay",
+      "question": "Describe the peer-review and evaluation process for a mathematical visualization.",
+      "reference": "Slide 13–17",
+      "modelAnswer": "A peer identifies the visible mathematical idea, one useful feature and one distraction. Revise in response. Check the final resource for accuracy, clarity, purpose and thinking. A successful visualization gets learners to see, explore, reason and explain, not simply admire visual design.",
+      "rubric": [
+        "Peer idea check",
+        "Useful feature and distraction",
+        "Revision",
+        "Four evaluation criteria",
+        "Final four-step takeaway"
+      ]
+    },
+    {
+      "id": "E53",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "essay",
+      "question": "Define differentiated instruction, readiness, scaffolding and formative assessment, and explain how they relate.",
+      "reference": "Slide 3–4",
+      "modelAnswer": "Differentiation deliberately adapts teaching to readiness, interests and needs while preserving objectives. Readiness is current understanding and next achievable step. Scaffolding is temporary support toward independence. Formative assessment gathers evidence that lets the teacher adjust supports and challenge.",
+      "rubric": [
+        "Definition of differentiation",
+        "Readiness",
+        "Scaffolding",
+        "Formative assessment",
+        "Connection to shared goal"
+      ]
+    },
+    {
+      "id": "E54",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "essay",
+      "question": "Discuss the difference between equality and equity in a mixed-readiness mathematics class.",
+      "reference": "Slide 3",
+      "modelAnswer": "Identical tasks treat everyone the same but may not support everyone equally. Equitable differentiation keeps a meaningful common objective while varying representations, hints, pacing, challenge and ways of showing knowledge. Fixed labels and lowered expectations threaten fairness. Use student evidence rather than assumptions.",
+      "rubric": [
+        "Equality position",
+        "Equity position",
+        "Shared ambition",
+        "Responsive pathways",
+        "Fairness risks"
+      ]
+    },
+    {
+      "id": "E55",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "essay",
+      "question": "Compare the four dimensions of differentiation with mathematics examples.",
+      "reference": "Slide 5",
+      "modelAnswer": "Content can offer a diagram or algebraic entry into quadratics; process may involve manipulatives or guided questions; product allows a written proof, graph or oral explanation; environment offers individual quiet time or structured pair work. These changes serve the same mathematical outcome.",
+      "rubric": [
+        "Content",
+        "Process",
+        "Product",
+        "Environment",
+        "Common objective"
+      ]
+    },
+    {
+      "id": "E56",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "essay",
+      "question": "Explain five ways AI can support differentiated learning without taking over teaching.",
+      "reference": "Slide 6",
+      "modelAnswer": "AI can draft task variants, generate stepwise hints, suggest misconception-based feedback, provide symbolic/visual/verbal alternatives and help prepare rubrics or exit tickets. Teachers verify correctness, fairness, privacy, relevance and whether learners still think for themselves.",
+      "rubric": [
+        "Task variants",
+        "Scaffolds",
+        "Feedback",
+        "Representations",
+        "Planning and teacher oversight"
+      ]
+    },
+    {
+      "id": "E57",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "essay",
+      "question": "Construct foundational, proficient and advanced pathways for x²−5x+6=0.",
+      "reference": "Slide 7–8",
+      "modelAnswer": "Foundational: remind students to seek two numbers with product 6 and sum 5, and offer a first hint. Proficient: factor to (x−2)(x−3)=0 and check 2,3. Advanced: investigate x² −(k+1)x+k=0, factor (x −1)(x −k), prove roots 1 and k and discuss repeated roots when k=1. All pathways require justification.",
+      "rubric": [
+        "Common objective",
+        "Foundational scaffold",
+        "Proficient independent check",
+        "Advanced generalization",
+        "Correct roots and equal-root case"
+      ]
+    },
+    {
+      "id": "E58",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "essay",
+      "question": "Explain why the advanced parameter task involves generalization instead of only harder arithmetic.",
+      "reference": "Slide 8",
+      "modelAnswer": "The equation x²−(k+1)x+k=0 factors symbolically as (x−1)(x−k), so the learner reasons about any parameter k, identifies roots 1 and k, and locates the special case k=1. The structure is more important than computing large numerical coefficients.",
+      "rubric": [
+        "Symbolic factorization",
+        "Parametric roots",
+        "Special case",
+        "Generalization",
+        "Contrast with larger numbers"
+      ]
+    },
+    {
+      "id": "E59",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "essay",
+      "question": "Write a high-quality AI prompt for three differentiated quadratic tasks, including the necessary outputs.",
+      "reference": "Slide 9–10",
+      "modelAnswer": "State role (experienced secondary teacher), shared objective (solve and justify), mixed-readiness Grade 9 context, foundational/proficient/advanced support, and for each version request a task, correct solution, non-revealing hint, misconception and assessment criterion. Require accuracy and cognitive-demand explanation; audit each generated result.",
+      "rubric": [
+        "Role and context",
+        "Shared objective",
+        "Three pathways",
+        "Outputs/hint policy",
+        "Math and quality checks"
+      ]
+    },
+    {
+      "id": "E60",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "essay",
+      "question": "Design a pair-based critical audit for three AI-generated differentiated tasks.",
+      "reference": "Slide 11–12",
+      "modelAnswer": "Student A drafts tasks and Student B evaluates them; check solutions, common goal, reasoning demand, hint quality, accessibility, fairness and privacy. Reverse or discuss perspectives, revise a weak task, and defend how the final versions differ meaningfully without labeling learners permanently.",
+      "rubric": [
+        "Role division",
+        "Math accuracy",
+        "Alignment and demand",
+        "Support and fairness/privacy",
+        "Revision and defense"
+      ]
+    },
+    {
+      "id": "E61",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "essay",
+      "question": "Explain why fixed ability groups and first-hint answer revelation can undermine differentiation.",
+      "reference": "Slide 12–13",
+      "modelAnswer": "Fixed labels may limit access or lower expectations, and a hint that gives the solution removes learner thinking. Use flexible grouping informed by formative evidence and progressive hints that reveal a useful next step, not the entire result. The teacher adjusts support as readiness changes.",
+      "rubric": [
+        "Risk of fixed groups",
+        "Risk of full-answer hints",
+        "Flexible grouping",
+        "Progressive support",
+        "Evidence-based adjustment"
+      ]
+    },
+    {
+      "id": "E62",
+      "topic": 6,
+      "source": "AI for Differentiated Learning.pptx",
+      "type": "essay",
+      "question": "Propose an evidence-based way to determine whether AI-supported differentiation improves learning.",
+      "reference": "Slide 13–15",
+      "modelAnswer": "Choose a shared objective and collect baseline student responses, teach using different supports, gather exit tickets and student explanations, compare progress on the same objective and adjust pathways. Audit privacy and fairness, and do not infer needs from one AI prompt. A defensible claim requires actual evidence of understanding.",
+      "rubric": [
+        "Shared objective",
+        "Baseline/formative evidence",
+        "Differentiated intervention",
+        "Comparable outcome evidence",
+        "Ethics and limitation of AI inference"
+      ]
+    },
+    {
+      "id": "E63",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "essay",
+      "question": "Summarize the method and principal finding of Gurl, Markinson and Artzt and its implication for teacher training.",
+      "reference": "Research: Gurl et al.",
+      "modelAnswer": "Preservice secondary teachers drafted parts of microteaching lessons themselves, asked ChatGPT for parallel planning and mathematics, then reflected on differences. They recognized repetitive, teacher-centred pedagogy more reliably than mathematical mistakes. Some dismissed wrong mathematics as a different approach. Teacher education needs an explicit framework for critical mathematical and pedagogical evaluation.",
+      "rubric": [
+        "Study context",
+        "Human versus AI planning",
+        "Pedagogical finding",
+        "Mathematical finding",
+        "Implication for reflective checking"
+      ]
+    },
+    {
+      "id": "E64",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "essay",
+      "question": "Explain the two AI functions found by Calamlam and how preservice teachers responded to limitations.",
+      "reference": "Research: Calamlam",
+      "modelAnswer": "In a workshop with 23 Filipino preservice teachers, AI was used both as a content generator (objectives, student-centred tasks and plan formats) and as an organizational/support tool. Outputs were sometimes verbose, unrealistic or mathematically inaccurate, and organization lost clarity or content. Participants refined prompts and manually edited results, illustrating the need for evaluation skills.",
+      "rubric": [
+        "Study sample",
+        "Content generator",
+        "Support tool",
+        "Limits",
+        "Prompt and manual revisions"
+      ]
+    },
+    {
+      "id": "E65",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "essay",
+      "question": "Analyze how interest-based AI problem posing may benefit Grade 7 teaching and what the study cannot prove strongly.",
+      "reference": "Research: Walkington et al.",
+      "modelAnswer": "Seven Grade 7 teachers used ChatGPT to connect mathematics tasks with interests like sports and music, implemented them, collected student reactions and revised. Interviews suggest AI-TPACK learning and engagement potential, but realism, time and variable interests were barriers. Small sample and high baseline survey measures limit strong quantitative generalizations.",
+      "rubric": [
+        "Seven-teacher setting",
+        "Student-interest personalization",
+        "Iterative feedback",
+        "Reported benefits and barriers",
+        "Quantitative limits"
+      ]
+    },
+    {
+      "id": "E66",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "essay",
+      "question": "State Yen and Hsu's three research questions and explain why adaptive feedback requires more than a fluent response.",
+      "reference": "Research: Yen and Hsu",
+      "modelAnswer": "The questions concern uses for mathematical problem-solving learning, accuracy and explanations in solving problems, and reliable detection/correction of students' errors. GPT-3.5 was tested on modified MathQA with zero-shot, few-shot and chain-of-thought prompts and a teacher–student setup. The paper documents question misinterpretation, bad reasoning and incorrect diagnosis of student solutions, so teachers must verify the underlying mathematics.",
+      "rubric": [
+        "RQ1",
+        "RQ2",
+        "RQ3",
+        "Research approach",
+        "Error-correction limitation"
+      ]
+    },
+    {
+      "id": "E67",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "essay",
+      "question": "Diagnose the three-dimensional cube-packing mistake shown in the attached figure.",
+      "reference": "Research: Yen and Hsu, Figure 3",
+      "modelAnswer": "In a 6×9×11 box, using complete cubes of edge 3, a regular aligned packing has floor(6/3)×floor(9/3)×floor(11/3)=2×3×3=18 cubes, not 4×3×2=24. Their total volume is 18×27=486 compared with the box volume 594, leaving 108 cubic units. A reported negative free space exposes the invalid counting assumption; partial cubes do not count as fitted complete cubes.",
+      "rubric": [
+        "Correct floor counts",
+        "Correct total 18",
+        "Cube and box volumes",
+        "Remaining volume 108",
+        "Explain complete-cube mistake"
+      ]
+    },
+    {
+      "id": "E68",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "essay",
+      "question": "Correct the model's answer to the ratio word problem and identify the precise misinterpretation.",
+      "reference": "Research: Yen and Hsu, Figure 4",
+      "modelAnswer": "Let original numbers be x and 2x. Given (x+5)/(2x+5)=3/5, cross-multiply to get 5x+25=6x+15, so x=10. The original numbers are 10 and 20. Although the larger number becomes 25 after adding 5, the question asks for the original greater number, 20.",
+      "rubric": [
+        "Define original ratio",
+        "Set proportion",
+        "Solve x",
+        "State 20",
+        "Explain 25- versus-20 mistake"
+      ]
+    },
+    {
+      "id": "E69",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "essay",
+      "question": "Explain two different ways an AI tutor can fail when assessing student work, using the jasmine and sheep cases.",
+      "reference": "Research: Yen and Hsu, Figures 5–6",
+      "modelAnswer": "In the jasmine example the student's calculations reach 9 L in 90 L but omit the final conversion to 10%; helpful feedback completes the process. In the sheep/horse example 12880/230=56 horses =7 parts, so sheep =3×8=24. The AI's attempt to overcorrect to 72 wrongly treats the student answer as incorrect. This contrasts missing finalization with false correction.",
+      "rubric": [
+        "Jasmine initial 6 L",
+        "Final 9/90=10%",
+        "Horse count 56",
+        "Sheep count 24",
+        "Distinguish incomplete versus wrongly rejected solution"
+      ]
+    },
+    {
+      "id": "E70",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "essay",
+      "question": "Solve the simple-interest case and discuss why a teacher model may misidentify a correct answer.",
+      "reference": "Research: Yen and Hsu, Figure 7",
+      "modelAnswer": "Eight years at 5% simple interest yields I=0.05×8P=0.4P. Because interest is $480 less than principal, 0.4P=P−480. Thus 0.6P=480 and P=$800. The lesson is to inspect the equation and student's steps, not confidently claim an error because the method or notation looks unfamiliar.",
+      "rubric": [
+        "Interest formula",
+        "Equation",
+        "Correct solution",
+        "Examine student's method",
+        "General lesson on false corrections"
+      ]
+    },
+    {
+      "id": "E71",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "essay",
+      "question": "Summarize the Zhang study's task design, compared models, major errors and educational implications.",
+      "reference": "Research: Zhang et al.",
+      "modelAnswer": "Four LLMs (GPT-4o, o1, DeepSeek-V3, DeepSeek-R1) were tested on challenging arithmetic, algebra and number-theory tasks. Researchers coded both final correctness and step-level procedural/conceptual errors, and examined single- and dual-agent arrangements. Procedural slips predominated; o1 was especially strong and dual-agent checking improved outcomes. Teachers still need independent scrutiny of each step.",
+      "rubric": [
+        "Four models",
+        "Three math domains",
+        "Step-level framework",
+        "Procedural slips",
+        "Dual-agent and teacher checking"
+      ]
+    },
+    {
+      "id": "E72",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "essay",
+      "question": "Compare how the graph-theory model responded to a solved problem and an unsolved problem.",
+      "reference": "Research: Kulkarni et al.",
+      "modelAnswer": "The eight-stage protocol tested interpretation, exploration, strategy and proof. For the solved gracefulness question it produced a proof validated by an expert and applied known results. For the open converse about graceful line graphs it offered plausible ideas, recognized uncertainty, and did not claim a new solution. LLMs support exploration but cannot substitute for rigorous novel reasoning or validation.",
+      "rubric": [
+        "Eight-stage protocol",
+        "Solved-case performance",
+        "Open-case behavior",
+        "Uncertainty",
+        "Verification implication"
+      ]
+    },
+    {
+      "id": "E73",
+      "topic": 7,
+      "source": "Attached research articles and Figures 3–7",
+      "type": "essay",
+      "question": "Synthesize the attached studies into five guidelines for responsible AI-supported mathematics instruction.",
+      "reference": "Research: Synthesis",
+      "modelAnswer": "Start with a specific learning objective and student context; prompt AI for candidate tasks or explanations, not unquestioned truths; solve/check all mathematics independently; evaluate learner activity, differentiation, realism and accessibility; use student work and peer feedback to revise while protecting privacy. The papers collectively show benefits of drafting and multiple risks in mathematical correction.",
+      "rubric": [
+        "Goal/context",
+        "AI as draft",
+        "Independent verification",
+        "Pedagogical audit",
+        "Feedback/privacy and research connection"
+      ]
+    }
+  ]
+}

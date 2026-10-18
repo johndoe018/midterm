@@ -1,4 +1,5 @@
 import { STORAGE_KEY, freshState, validateState, dayKey, shuffle, recordReview, isDue, mastered, accuracy, streak } from './core.js';
+import bank from '../public/bank-data.js?v=3';
 
 const $ = s => document.querySelector(s);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -31,15 +32,6 @@ const paths = {
 };
 function icon(name, cls = '') { return `<svg class="icon ${cls}" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${paths[name] || paths.book}</svg>`; }
 function flower() { return '<svg class="flower" viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M50 8v84M8 50h84M20.3 20.3l59.4 59.4m0-59.4L20.3 79.7" stroke="currentColor" stroke-width="9" stroke-linecap="round"/></svg>'; }
-let bank;
-try {
-  const response = await fetch(new URL('../public/bank.json', import.meta.url));
-  if (!response.ok) throw Error('Question bank not found');
-  bank = await response.json();
-} catch {
-  $('#app').innerHTML = '<div class="loading">Не удалось загрузить вопросы.<span>Проверь соединение и обнови страницу.</span><button class="btn" onclick="location.reload()">Повторить</button></div>';
-  throw Error('Cannot load question bank');
-}
 const questions = bank.questions;
 const byId = new Map(questions.map(q => [q.id, q]));
 let state = freshState();
@@ -328,4 +320,4 @@ window.addEventListener('offline', () => { if ($('#connection-label')) $('#conne
 // Keep progress coherent if another tab changes the same browser storage.
 window.addEventListener('storage', event => { if (event.key === STORAGE_KEY && event.newValue) { try { state = validateState(JSON.parse(event.newValue), questions); render(); toast('Прогресс обновлён из другой вкладки.'); } catch { /* Ignore invalid external data. */ } } });
 render();
-if ('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js').catch(() => { /* The app also works without offline caching. */ });
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js', { updateViaCache: 'none' }).catch(() => { /* The app also works without offline caching. */ });

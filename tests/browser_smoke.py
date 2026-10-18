@@ -47,6 +47,9 @@ with sync_playwright() as p:
     bank_response = context.request.get(BASE + "public/bank.json")
     assert bank_response.status == 200
     assert len(bank_response.json()["questions"]) == 329
+    legacy_bank = context.request.get(BASE + "bank.json")
+    assert legacy_bank.status == 200
+    assert len(legacy_bank.json()["questions"]) == 329
     page.screenshot(path="/tmp/memo-desktop.png", full_page=True)
     print("PASS: dashboard, 7 sections, repository subpath assets")
 
@@ -190,6 +193,23 @@ with sync_playwright() as p:
     expect(page.locator(".bank-row")).to_have_count(329)
     context.set_offline(False)
     print("PASS: offline reload and complete question bank from service worker")
+
+    # A JSON fetch failure must never prevent the current application loading.
+    # This also catches accidental regressions to the original bootstrap path.
+    json_blocked_context = browser.new_context(service_workers="block")
+    json_blocked = json_blocked_context.new_page()
+    blocked_requests = []
+    def block_json(route):
+        blocked_requests.append(route.request.url)
+        route.abort()
+    json_blocked.route("**/*.json", block_json)
+    json_blocked.goto(BASE)
+    expect(json_blocked.locator(".hero")).to_be_visible()
+    json_blocked.goto(BASE + "#bank")
+    expect(json_blocked.locator(".bank-row")).to_have_count(329)
+    assert not blocked_requests, blocked_requests
+    json_blocked_context.close()
+    print("PASS: question bank loads without JSON requests; legacy bank URL still supported")
     assert not errors, errors
     print("ALL BROWSER CHECKS PASSED; no JavaScript runtime errors.")
     browser.close()

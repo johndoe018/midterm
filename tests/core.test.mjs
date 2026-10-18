@@ -2,8 +2,15 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { freshState, recordReview, isDue, mastered, accuracy, streak, dayKey, shuffle, validateState } from '../src/core.js';
+import bundledBank from '../public/bank-data.js';
 const bank = JSON.parse(await readFile(new URL('../public/bank.json', import.meta.url)));
 const qs = bank.questions;
+
+test('Bundled questions and the old /bank.json URL preserve the complete source bank', async () => {
+  assert.deepEqual(bundledBank, bank);
+  const legacy = JSON.parse(await readFile(new URL('../bank.json', import.meta.url)));
+  assert.deepEqual(legacy, bank);
+});
 
 test('All 329 source questions are complete, uniquely identified, and correctly distributed', () => {
   assert.equal(qs.length, 329);
